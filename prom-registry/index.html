@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PROM Registry & Outcome Monitor</title>
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+<div id="demo-banner">PATIENT-REPORTED OUTCOMES MONITOR — de-identified study IDs only. Load your REDCap / PROMIS / portal export on the Import page, or start with synthetic demo data.</div>
+
+<div id="app-frame">
+  <aside id="sidebar">
+    <div class="brand">
+      <div class="brand-mark">P</div>
+      <div><div class="brand-name">PROM Registry</div><div class="brand-sub">Outcome Monitor</div></div>
+    </div>
+    <nav id="nav"></nav>
+    <div class="sidebar-footer"><div class="refresh-note" id="refresh-note"></div></div>
+  </aside>
+  <main id="main">
+    <header id="topbar">
+      <div id="page-title-block"><h1 id="page-title"></h1><div id="page-context"></div></div>
+      <div id="global-filters"><button class="btn small ghost" id="print-btn">Print report</button></div>
+    </header>
+    <div id="page-root" tabindex="-1"></div>
+  </main>
+</div>
+
+<div id="modal-layer" hidden></div>
+<div id="tooltip-layer" role="tooltip" hidden></div>
+
+<script src="js/lib/stats.js"></script>
+<script src="js/lib/csv.js"></script>
+<script src="js/lib/ui.js"></script>
+<script src="js/lib/charts.js"></script>
+<script src="js/core/config.js"></script>
+<script src="js/core/store.js"></script>
+<script src="js/core/importer.js"></script>
+<script src="js/core/demo.js"></script>
+<script src="js/pages/outcomes.js"></script>
+<script src="js/pages/worklist.js"></script>
+<script src="js/pages/subjects.js"></script>
+<script src="js/pages/dataquality.js"></script>
+<script src="js/pages/thresholds.js"></script>
+<script src="js/pages/import.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
