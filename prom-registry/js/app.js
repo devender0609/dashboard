@@ -5,9 +5,10 @@
     { id: "outcomes", label: "Outcome Monitoring", section: "Monitor" },
     { id: "worklist", label: "Monitoring Worklist", section: "Monitor" },
     { id: "subjects", label: "Subjects", section: "Monitor" },
+    { id: "entry", label: "Data Entry", section: "Data" },
+    { id: "import", label: "Import & Update", section: "Data" },
     { id: "dataquality", label: "Data Quality", section: "Governance" },
-    { id: "thresholds", label: "MCID / PASS Thresholds", section: "Governance" },
-    { id: "import", label: "Import & Update", section: "Data" }
+    { id: "thresholds", label: "MCID / PASS Thresholds", section: "Governance" }
   ];
   let current = "outcomes";
 

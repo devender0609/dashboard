@@ -162,3 +162,19 @@ textarea{resize:vertical}
 
 /* file inputs on import page */
 input[type=file]{font-size:13px;padding:6px;border:1px solid var(--border);border-radius:7px;background:#fff;width:100%}
+
+/* ---- polish pass ---- */
+.grid.kpi.tight{grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.grid.kpi.tight .kpi-value{font-size:23px}
+.link-del{background:none;border:none;color:#b3261e;cursor:pointer;font-size:12px;padding:0 4px;opacity:.55}
+.link-del:hover{opacity:1}
+.tl-item .tl-text{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+#nav .nav-item{transition:background .12s}
+.card h3{letter-spacing:-.01em}
+.kpi-card{transition:border-color .12s,box-shadow .12s}
+.kpi-card.clickable:hover{box-shadow:0 2px 10px rgba(21,94,158,.12)}
+input:focus,select:focus,textarea:focus,.search-input:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+.btn:focus-visible,.nav-item:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.empty-state{line-height:1.6}
+.section-title{color:#2a3746}
+@media (max-width:820px){ .grid.kpi.tight{grid-template-columns:repeat(2,1fr)} }

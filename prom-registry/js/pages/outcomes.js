@@ -45,8 +45,26 @@
         det: t.pairedN ? `${t.det}/${t.pairedN}` : "—" };
     });
 
+    // compact, meaningful overview strip (only threshold-linked or denominator-backed numbers)
+    const allSubj = S.subjects.filter(s => S.subjectMatches(s));
+    const dueRows = S.filteredAnalysis().filter(r => r.status !== "Not yet due");
+    const collected = dueRows.filter(r => r.status === "Collected").length;
+    const compPct = dueRows.length ? St.pct(collected, dueRows.length) : null;
+    const paired12 = S.filteredAnalysis().filter(r => r.timepoint === "12m" && r.mcidMet !== null);
+    const mcid12 = paired12.filter(r => r.mcidMet).length;
+    const overdue = dueRows.filter(r => r.status === "Overdue").length;
+    const deter = S.filteredAnalysis().filter(r => r.deteriorated === true).length;
+
     root.innerHTML = `
-      <div class="filter-bar">
+      <div class="grid kpi tight">
+        ${U.kpi({ name: "Subjects", value: allSubj.length, denomText: "enrolled in filter", tip: "Subjects matching the current cohort/provider filters." })}
+        ${U.kpi({ name: "Follow-up completion", value: compPct != null ? compPct + "%" : "—", denomText: `${collected} of ${dueRows.length} due assessments`, status: dueRows.length >= St.MIN_N ? (compPct >= 70 ? "good" : compPct >= 60 ? "warn" : "bad") : "none", tip: "Collected ÷ due follow-up assessments (all instruments). Draft target ≥70%." })}
+        ${U.kpi({ name: "MCID at 12 months", value: paired12.length ? St.pct(mcid12, paired12.length) + "%" : "—", denomText: `${mcid12} of ${paired12.length} paired scores`, status: "none", tip: "Display only — MCID thresholds are placeholders pending approval. Paired baseline + 12-month scores." })}
+        ${U.kpi({ name: "Overdue", value: overdue, denomText: "assessments past window", status: overdue ? "warn" : "good", tip: "Follow-up assessments now past their allowed window — see the Monitoring Worklist.", onClick: "worklist" })}
+        ${U.kpi({ name: "Deteriorating", value: deter, denomText: "scores worse than baseline ≥ MCID", status: deter ? "bad" : "good", tip: "Assessments worse than baseline by at least the MCID magnitude (placeholder thresholds).", onClick: "worklist" })}
+      </div>
+
+      <div class="filter-bar" style="margin-top:16px">
         <div class="gf"><label>Instrument</label><select data-f="instrument">${instrOpts}</select></div>
         ${cohortFilter(S)}
         ${providerFilter(S)}
@@ -72,6 +90,7 @@
 
     Ch.line("oc-traj", labels, [{ label: "Mean" + dir, data: meanS }, { label: "Median", data: medS, dashed: true, color: "#7b4fa6" }]);
     Ch.bar("oc-comp", labels.slice(1), [{ label: "Completion %", data: perTp.slice(1).map(t => t.due ? St.pct(t.n, t.due) : null), color: "#0d7f8c" }]);
+    root.querySelectorAll("[data-drill]").forEach(el => { el.addEventListener("click", () => window.PROMApp.go(el.dataset.drill)); el.addEventListener("keydown", e => { if (e.key === "Enter") window.PROMApp.go(el.dataset.drill); }); });
     bindFilters(root); U.bindTooltips(root);
   }
 

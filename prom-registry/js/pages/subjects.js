@@ -55,16 +55,24 @@
       const a = analysis.find(x => x.instrument === sc.instrument && x.timepoint === sc.timepoint);
       const k = a && a.deteriorated ? "bad" : a && a.mcidMet ? "good" : "";
       const chg = a && a.change !== null ? ` (Δ ${a.change > 0 ? "+" : ""}${a.change}${a.mcidMet ? ", MCID met" : a.deteriorated ? ", deteriorated" : ""})` : sc.timepoint === "baseline" ? " (baseline)" : "";
-      return { d: sc.collectedDate, t: `${sc.instrument} = ${sc.score}${chg} · ${sc.timepoint} · ${sc.source}`, k };
+      return { d: sc.collectedDate, t: `${sc.instrument} = ${sc.score}${chg} · ${sc.timepoint} · ${sc.source}`, k, del: `${sc.instrument}|${sc.timepoint}` };
     });
     // pending/overdue schedule
-    analysis.filter(r => r.status === "Overdue" || r.status === "In window").forEach(r => events.push({ d: r.due, t: `DUE: ${r.instrument} ${r.timepoint}${r.status === "Overdue" ? " — OVERDUE" : ""}`, k: r.status === "Overdue" ? "bad" : "" }));
+    analysis.filter(r => r.status === "Overdue" || r.status === "In window").forEach(r => events.push({ d: r.due, t: `DUE: ${r.instrument} ${r.timepoint}${r.status === "Overdue" ? " — OVERDUE" : ""}`, k: r.status === "Overdue" ? "bad" : "", del: null }));
     events.sort((a, b) => a.d < b.d ? 1 : -1);
 
     U.openModal({
       title: `<h2>${U.esc(subjectId)} <span class="muted" style="font-size:13px;font-weight:400">· ${U.esc(sub ? sub.cohort : "")} · anchor ${U.esc(sub ? (sub.anchorDate || "none") : "")} · ${U.esc(sub ? sub.provider : "")}</span></h2><div class="muted" style="font-size:12px">De-identified study subject — no patient identifiers stored.</div>`,
-      body: `<div class="timeline">${events.map(e => `<div class="tl-item ${e.k ? "tl-" + e.k : ""}"><div class="tl-date">${U.esc(e.d || "—")}</div><div class="tl-text">${U.esc(e.t)}</div></div>`).join("") || '<div class="empty-state">No assessments recorded.</div>'}</div>`
+      body: `<div class="btn-row"><button class="btn small" id="ms-add">+ Add assessment</button><button class="btn small ghost" id="ms-del" style="color:#b3261e;border-color:#b3261e">Delete subject</button></div>
+        <div class="timeline">${events.map(e => `<div class="tl-item ${e.k ? "tl-" + e.k : ""}"><div class="tl-date">${U.esc(e.d || "—")}</div><div class="tl-text">${U.esc(e.t)} ${e.del ? `<button class="link-del" data-del="${U.esc(e.del)}" title="Delete this assessment">✕</button>` : ""}</div></div>`).join("") || '<div class="empty-state">No assessments recorded.</div>'}</div>`
     });
+    const modal = document.getElementById("modal-layer");
+    modal.querySelector("#ms-add").onclick = () => { U.closeModal(); window.PROMApp.go("entry"); setTimeout(() => { const f = document.getElementById("sc-id"); if (f) { f.value = subjectId; f.focus(); } }, 30); };
+    modal.querySelector("#ms-del").onclick = () => { if (confirm(`Delete subject ${subjectId} and all its assessments?`)) { S.deleteSubject(subjectId); U.closeModal(); window.PROMApp.refreshNav(); window.PROMApp.go("subjects"); } };
+    modal.querySelectorAll("[data-del]").forEach(b => b.addEventListener("click", () => {
+      const [instr, tp] = b.dataset.del.split("|");
+      if (confirm(`Delete ${instr} ${tp} for ${subjectId}?`)) { S.deleteScore(subjectId, instr, tp); U.closeModal(); openSubject(subjectId); window.PROMApp.refreshNav(); }
+    }));
   }
 
   window.PROMPages = window.PROMPages || {};

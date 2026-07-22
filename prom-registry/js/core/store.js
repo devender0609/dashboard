@@ -55,6 +55,31 @@
 
     audit(action, detail) { this.auditLog.unshift({ ts: new Date().toISOString(), action, detail: detail || "" }); },
 
+    // ---- manual data entry (add/edit/delete) -----------------------------
+    upsertSubject(s) {
+      const i = this.subjects.findIndex(x => x.subjectId === s.subjectId);
+      if (i >= 0) { this.subjects[i] = Object.assign({}, this.subjects[i], s); this.audit("Subject edited", s.subjectId); }
+      else { this.subjects.push(s); this.audit("Subject added", s.subjectId); }
+      this.index(); this.save();
+    },
+    deleteSubject(id) {
+      this.subjects = this.subjects.filter(s => s.subjectId !== id);
+      this.scores = this.scores.filter(s => s.subjectId !== id);
+      this.audit("Subject deleted", id); this.index(); this.save();
+    },
+    upsertScore(sc) {
+      const key = x => x.subjectId + "|" + x.instrument + "|" + x.timepoint;
+      const i = this.scores.findIndex(x => key(x) === key(sc));
+      if (i >= 0) { this.scores[i] = Object.assign({}, this.scores[i], sc); this.audit("Assessment edited", key(sc)); }
+      else { this.scores.push(sc); this.audit("Assessment added", key(sc)); }
+      this.index(); this.save();
+    },
+    deleteScore(subjectId, instrument, timepoint) {
+      this.scores = this.scores.filter(s => !(s.subjectId === subjectId && s.instrument === instrument && s.timepoint === timepoint));
+      this.audit("Assessment deleted", subjectId + "|" + instrument + "|" + timepoint);
+      this.index(); this.save();
+    },
+
     // ---- indexing --------------------------------------------------------
     index() {
       this.subjectById = {};
