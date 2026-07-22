@@ -14,6 +14,8 @@
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.45}
 button{font-family:inherit}
+/* Ensure the hidden attribute always wins over ID display rules (modal/tooltip) */
+[hidden]{display:none !important}
 
 /* Demo banner */
 #demo-banner{background:#3b2f6b;color:#fff;text-align:center;font-size:12.5px;letter-spacing:.02em;padding:6px 12px;position:sticky;top:0;z-index:60}
