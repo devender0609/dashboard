@@ -1,0 +1,11 @@
+﻿instrument,population,mcid,pass,direction,source,versionDate,status
+ODI,Lumbar surgery,12.8,22,decrease,Placeholder default — pending local validation (lit. range 10-15),2026-06-01,Pending clinical approval
+NDI,Cervical surgery,7.5,17,decrease,Placeholder default — pending local validation (lit. range 5.5-10),2026-06-01,Pending clinical approval
+PROMIS-PF,Spine (all),4.5,,increase,Placeholder default — pending local validation (lit. range 3.5-5.5),2026-06-01,Pending clinical approval
+PROMIS-PI,Spine (all),4,,decrease,Placeholder default — pending local validation (lit. range 3.5-5.5),2026-06-01,Pending clinical approval
+PROMIS-SR,Spine (all),4,,increase,Placeholder default — pending local validation,2026-06-01,Pending clinical approval
+PROMIS-FA,Spine (all),4,,decrease,Placeholder default — pending local validation,2026-06-01,Pending clinical approval
+PROMIS-AX,Spine (all),4,,decrease,Placeholder default — pending local validation,2026-06-01,Pending clinical approval
+PROMIS-DE,Spine (all),4,,decrease,Placeholder default — pending local validation,2026-06-01,Pending clinical approval
+SRS-22r,Adult deformity,0.4,,increase,Placeholder default — pending local validation,2026-06-01,Pending clinical approval
+NRS-Pain,Spine (all),2,3,decrease,Placeholder default — pending local validation (lit. range 1.5-2.5),2026-06-01,Pending clinical approval

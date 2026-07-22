@@ -1,0 +1,188 @@
+﻿episodeId,patientId,spineRegion,primaryDiagnosis,episodeType,treatingProvider,providerId,referralSource,referralDate,firstApptDate,treatmentPlanDate,status,closureDate,clinicLocation
+EP-0001,PT-0001,Cervical,Cervical radiculopathy,Nonsurgical,Dr. D. Malhotra,PR-04,Physical therapist,2025-07-23,2025-08-12,,Active,,Main Campus
+EP-0002,PT-0002,Cervical,Cervical radiculopathy,Nonsurgical,Dr. D. Malhotra,PR-04,Self-referral,2025-02-15,2025-03-04,,Closed,2026-05-01,Main Campus
+EP-0003,PT-0003,Deformity,Sagittal imbalance,Surgical evaluation,Dr. A. Rivera,PR-01,Physical therapist,2024-03-01,2024-03-09,2024-03-19,Active,,Main Campus
+EP-0004,PT-0004,Cervical,Cervical radiculopathy,Surgical evaluation,Dr. A. Rivera,PR-01,Urgent care,2023-08-14,2023-08-22,2023-09-04,Closed,2024-09-21,Main Campus
+EP-0005,PT-0004,Lumbar,Lumbar radiculopathy,Nonsurgical,Dr. B. Chen,PR-02,Other specialist,2024-08-11,2024-08-25,2024-09-04,Closed,2026-07-06,Main Campus
+EP-0006,PT-0005,Lumbar,Degenerative disc disease,Nonsurgical,Dr. A. Rivera,PR-01,Other specialist,2024-10-30,,2024-12-03,Active,,Main Campus
+EP-0007,PT-0006,Lumbar,Degenerative disc disease,Nonsurgical,"K. Brooks, PA-C",PR-06,Physical therapist,2025-10-25,2025-11-07,2025-11-15,Lost to follow-up,,Main Campus
+EP-0008,PT-0007,Lumbar,Lumbar spondylolisthesis,Surgical evaluation,Dr. B. Chen,PR-02,Primary care,2026-04-10,2026-04-24,2026-05-02,Active,,North Clinic
+EP-0009,PT-0008,Cervical,Cervical stenosis,Surgical evaluation,Dr. B. Chen,PR-02,Emergency department,2023-08-28,2023-09-14,2023-09-19,Closed,2024-10-08,North Clinic
+EP-0010,PT-0009,Lumbar,Degenerative disc disease,Nonsurgical,Dr. C. Osei,PR-03,Self-referral,2025-07-23,2025-08-01,2025-07-13,Active,,North Clinic
+EP-0011,PT-0010,Cervical,Cervical disc herniation,Nonsurgical,Dr. A. Rivera,PR-01,Self-referral,2024-10-05,2024-10-21,,Closed,2026-07-12,Main Campus
+EP-0012,PT-0011,Lumbar,Lumbar stenosis,Surgical evaluation,Dr. A. Rivera,PR-01,Physical therapist,2023-11-29,2023-12-15,2023-12-29,Closed,2025-10-02,North Clinic
+EP-0013,PT-0012,Thoracic,Thoracic compression fracture,Surgical evaluation,Dr. A. Rivera,PR-01,Other specialist,2025-12-08,2025-12-26,2025-12-28,Active,,Main Campus
+EP-0014,PT-0013,Lumbar,Degenerative disc disease,Nonsurgical,"K. Brooks, PA-C",PR-06,Other specialist,2025-04-25,2025-05-14,2025-05-24,Active,,North Clinic
+EP-0015,PT-0013,Lumbar,Lumbar spondylolisthesis,Surgical evaluation,Dr. C. Osei,PR-03,Other specialist,2023-11-24,2023-11-27,2023-12-09,Closed,2025-02-04,North Clinic
+EP-0016,PT-0014,Lumbar,Lumbar disc herniation,Surgical evaluation,Dr. A. Rivera,PR-01,Primary care,2026-04-19,2026-05-11,2026-05-14,Active,,Main Campus
+EP-0017,PT-0014,Deformity,Adult idiopathic scoliosis,Nonsurgical,Dr. E. Novak,PR-05,Self-referral,2024-11-26,2024-12-15,2024-12-23,Closed,2026-10-03,Main Campus
+EP-0018,PT-0015,Lumbar,Lumbar stenosis,Nonsurgical,Dr. E. Novak,PR-05,Self-referral,2023-08-07,2023-08-10,2023-08-23,Closed,2025-02-18,Main Campus
+EP-0019,PT-0016,Lumbar,Degenerative disc disease,Nonsurgical,"K. Brooks, PA-C",PR-06,Self-referral,2025-03-14,2025-03-24,2025-04-05,Closed,2026-05-02,Main Campus
+EP-0020,PT-0017,Lumbar,Lumbar stenosis,Nonsurgical,Dr. A. Rivera,PR-01,Primary care,2026-03-09,2026-03-11,2026-03-20,Active,,Main Campus
+EP-0021,PT-0018,Cervical,Cervical myelopathy,Surgical evaluation,Dr. A. Rivera,PR-01,Other specialist,2024-05-24,2024-06-10,,Active,,Main Campus
+EP-0022,PT-0019,Deformity,Adult degenerative scoliosis,Surgical evaluation,Dr. A. Rivera,PR-01,Primary care,2023-07-04,2023-07-27,2023-08-10,Lost to follow-up,,North Clinic
+EP-0023,PT-0020,Lumbar,Lumbar spondylolisthesis,Nonsurgical,Dr. D. Malhotra,PR-04,Self-referral,2023-12-06,2023-12-21,2024-01-04,Closed,2025-04-13,Main Campus
+EP-0024,PT-0021,Cervical,Cervical disc herniation,Surgical evaluation,Dr. B. Chen,PR-02,Emergency department,2025-08-28,2025-09-18,2025-09-26,Lost to follow-up,,Main Campus
+EP-0025,PT-0022,Lumbar,Lumbar stenosis,Nonsurgical,Dr. D. Malhotra,PR-04,Emergency department,2025-11-28,2025-12-06,2025-12-07,Active,,North Clinic
+EP-0026,PT-0023,Cervical,Cervical disc herniation,Nonsurgical,Dr. D. Malhotra,PR-04,Emergency department,2023-07-18,2023-07-30,2023-07-31,Active,,North Clinic
+EP-0027,PT-0024,Cervical,Cervical radiculopathy,Nonsurgical,Dr. D. Malhotra,PR-04,Primary care,2024-06-25,2024-07-10,2024-07-12,Closed,2026-06-09,Main Campus
+EP-0028,PT-0025,Lumbar,Lumbar radiculopathy,Surgical evaluation,Dr. B. Chen,PR-02,Primary care,2024-11-18,2024-11-28,2024-12-06,Active,,Main Campus
+EP-0029,PT-0026,Thoracic,Thoracic compression fracture,Surgical evaluation,Dr. A. Rivera,PR-01,Emergency department,2023-12-23,2024-01-03,2024-01-15,Closed,2025-06-01,Main Campus
+EP-0030,PT-0027,Lumbar,Lumbar stenosis,Surgical evaluation,Dr. B. Chen,PR-02,Other specialist,2025-08-11,2025-08-29,2025-09-06,Active,,Main Campus
+EP-0031,PT-0028,Cervical,Cervical disc herniation,Surgical evaluation,Dr. C. Osei,PR-03,Physical therapist,2024-02-16,2024-03-09,2024-03-22,Active,,Main Campus
+EP-0032,PT-0029,Lumbar,Lumbar disc herniation,Nonsurgical,"K. Brooks, PA-C",PR-06,Emergency department,2025-12-22,2025-12-23,2025-12-23,Active,,Main Campus
+EP-0033,PT-0030,Lumbar,Lumbar disc herniation,Nonsurgical,Dr. C. Osei,PR-03,Urgent care,2026-03-26,2026-04-10,2026-04-24,Active,,North Clinic
+EP-0034,PT-0030,Cervical,Cervical stenosis,Nonsurgical,Dr. D. Malhotra,PR-04,Emergency department,2025-09-08,2025-09-11,2025-09-12,Active,,North Clinic
+EP-0035,PT-0031,Lumbar,Lumbar disc herniation,Surgical evaluation,Dr. B. Chen,PR-02,Urgent care,2025-08-11,2025-08-15,2025-08-17,Active,,North Clinic
+EP-0036,PT-0032,Lumbar,Lumbar disc herniation,Nonsurgical,Dr. E. Novak,PR-05,Emergency department,2024-02-15,2024-02-17,2024-02-17,Closed,2025-06-17,North Clinic
+EP-0037,PT-0033,Cervical,Cervical myelopathy,Surgical evaluation,Dr. C. Osei,PR-03,Urgent care,2023-08-19,2023-08-26,2023-09-05,Closed,2025-05-26,North Clinic
+EP-0038,PT-0034,Lumbar,Degenerative disc disease,Nonsurgical,"K. Brooks, PA-C",PR-06,Self-referral,2025-03-20,2025-04-06,2025-04-16,Closed,2026-09-20,North Clinic
+EP-0039,PT-0035,Deformity,Sagittal imbalance,Nonsurgical,"K. Brooks, PA-C",PR-06,Self-referral,2024-05-08,2024-05-17,2024-05-17,Active,,Main Campus
+EP-0040,PT-0036,Lumbar,Lumbar stenosis,Surgical evaluation,Dr. C. Osei,PR-03,Primary care,2025-06-17,2025-07-10,2025-07-10,Active,,North Clinic
+EP-0041,PT-0037,Lumbar,Lumbar stenosis,Surgical evaluation,Dr. C. Osei,PR-03,Physical therapist,2024-05-07,2024-05-08,2024-05-13,Lost to follow-up,,Main Campus
+EP-0042,PT-0038,Lumbar,Lumbar disc herniation,Nonsurgical,Dr. E. Novak,PR-05,Other specialist,2023-12-02,2023-12-06,2023-12-16,Active,,North Clinic
+EP-0043,PT-0039,Cervical,Cervical stenosis,Nonsurgical,Dr. B. Chen,PR-02,Self-referral,2024-09-07,2024-09-30,2024-10-11,Closed,2025-10-17,Main Campus
+EP-0044,PT-0040,Thoracic,Thoracic disc herniation,Surgical evaluation,Dr. C. Osei,PR-03,Other specialist,2024-01-21,2024-01-29,2024-01-31,Closed,2025-07-30,Main Campus
+EP-0045,PT-0041,Lumbar,Lumbar spondylolisthesis,Surgical evaluation,Dr. C. Osei,PR-03,Physical therapist,2025-09-14,2025-09-30,2025-09-30,Active,,North Clinic
+EP-0046,PT-0042,Lumbar,Lumbar spondylolisthesis,Nonsurgical,Dr. C. Osei,PR-03,Self-referral,2025-04-17,2025-05-11,2025-05-13,Active,,North Clinic
+EP-0047,PT-0043,Thoracic,Thoracic stenosis,Nonsurgical,"K. Brooks, PA-C",PR-06,Primary care,2024-11-05,2024-11-17,2024-11-25,Active,,Main Campus
+EP-0048,PT-0044,Thoracic,Thoracic disc herniation,Surgical evaluation,Dr. C. Osei,PR-03,Other specialist,2026-04-22,2026-04-29,2026-05-02,Active,,Main Campus
+EP-0049,PT-0044,Lumbar,Lumbar stenosis,Nonsurgical,Dr. A. Rivera,PR-01,Urgent care,2024-11-02,2024-11-20,2024-11-20,Closed,2026-02-07,Main Campus
+EP-0050,PT-0045,Lumbar,Lumbar radiculopathy,Nonsurgical,"K. Brooks, PA-C",PR-06,Self-referral,2023-08-12,2023-08-13,2023-08-22,Lost to follow-up,,Main Campus
+EP-0051,PT-0045,Cervical,Cervical disc herniation,Surgical evaluation,Dr. B. Chen,PR-02,Self-referral,2025-07-01,2025-07-16,2025-07-26,Active,,Main Campus
+EP-0052,PT-0046,Lumbar,Lumbar stenosis,Surgical evaluation,Dr. A. Rivera,PR-01,Self-referral,2023-08-21,2023-09-20,2023-09-26,Closed,2024-12-04,Main Campus
+EP-0053,PT-0047,Lumbar,Lumbar disc herniation,Nonsurgical,Dr. D. Malhotra,PR-04,Physical therapist,2025-12-01,2025-12-17,2025-12-28,Active,,Main Campus
+EP-0054,PT-0048,Lumbar,Lumbar radiculopathy,Nonsurgical,Dr. D. Malhotra,PR-04,Self-referral,2025-05-16,2025-05-23,,Closed,2026-08-18,Main Campus
+EP-0055,PT-0049,Lumbar,Lumbar radiculopathy,Nonsurgical,Dr. B. Chen,PR-02,Physical therapist,2024-11-15,2024-12-05,2024-12-13,Closed,2026-04-22,Main Campus
+EP-0056,PT-0050,Lumbar,Lumbar disc herniation,Nonsurgical,"K. Brooks, PA-C",PR-06,Physical therapist,2024-04-07,2024-04-19,2024-04-28,Closed,2025-09-30,North Clinic
+EP-0057,PT-0051,Thoracic,Thoracic stenosis,Surgical evaluation,Dr. A. Rivera,PR-01,Self-referral,2023-10-18,2023-10-23,2023-10-30,Active,,North Clinic
+EP-0058,PT-0051,Lumbar,Lumbar disc herniation,Surgical evaluation,Dr. B. Chen,PR-02,Other specialist,2023-07-21,2023-08-01,2023-08-04,Closed,2025-03-03,North Clinic
+EP-0059,PT-0052,Cervical,Cervical myelopathy,Surgical evaluation,Dr. C. Osei,PR-03,Primary care,2026-04-06,2026-04-22,2026-04-26,Active,,North Clinic
+EP-0060,PT-0053,Lumbar,Lumbar disc herniation,Surgical evaluation,Dr. B. Chen,PR-02,Other specialist,2024-11-27,2024-12-18,2024-12-25,Active,,Main Campus
+EP-0061,PT-0053,Cervical,Cervical radiculopathy,Surgical evaluation,Dr. A. Rivera,PR-01,Self-referral,2023-09-03,2023-09-20,2023-09-30,Closed,2025-01-01,Main Campus
+EP-0062,PT-0054,Lumbar,Lumbar radiculopathy,Nonsurgical,Dr. D. Malhotra,PR-04,Physical therapist,2025-05-16,2025-05-27,2025-06-09,Active,,Main Campus
+EP-0063,PT-0055,Deformity,Adult idiopathic scoliosis,Surgical evaluation,Dr. A. Rivera,PR-01,Physical therapist,2026-04-12,2026-04-14,2026-04-23,Lost to follow-up,,Main Campus
+EP-0064,PT-0056,Lumbar,Degenerative disc disease,Surgical evaluation,Dr. B. Chen,PR-02,Urgent care,2023-07-13,2023-08-01,2023-08-11,Closed,2025-03-17,Main Campus
+EP-0065,PT-0057,Lumbar,Degenerative disc disease,Surgical evaluation,Dr. C. Osei,PR-03,Emergency department,2024-07-07,2024-07-19,2024-07-24,Closed,2025-09-10,Main Campus
+EP-0066,PT-0058,Cervical,Cervical stenosis,Nonsurgical,Dr. E. Novak,PR-05,Urgent care,2025-01-21,2025-02-06,2025-02-08,Closed,2026-08-18,Main Campus
+EP-0067,PT-0059,Lumbar,Lumbar radiculopathy,Surgical evaluation,Dr. A. Rivera,PR-01,Physical therapist,2025-12-30,2026-01-19,2026-01-22,Active,,Main Campus
+EP-0068,PT-0060,Lumbar,Lumbar disc herniation,Nonsurgical,Dr. C. Osei,PR-03,Self-referral,2024-10-02,2024-10-16,2024-10-27,Closed,2026-02-15,Main Campus
+EP-0069,PT-0061,Cervical,Cervical stenosis,Surgical evaluation,Dr. B. Chen,PR-02,Physical therapist,2024-08-04,2024-08-09,2024-08-14,Closed,2026-03-29,North Clinic
+EP-0070,PT-0061,Lumbar,Degenerative disc disease,Nonsurgical,Dr. E. Novak,PR-05,Urgent care,2023-08-06,2023-08-21,2023-08-25,Active,,North Clinic
+EP-0071,PT-0062,Cervical,Cervical myelopathy,Surgical evaluation,Dr. B. Chen,PR-02,Primary care,2025-04-01,2025-04-19,2025-04-29,Closed,2027-03-06,Main Campus
+EP-0072,PT-0062,Deformity,Sagittal imbalance,Surgical evaluation,Dr. C. Osei,PR-03,Physical therapist,2025-03-24,2025-04-22,2025-05-06,Active,,Main Campus
+EP-0073,PT-0063,Lumbar,Lumbar stenosis,Nonsurgical,Dr. B. Chen,PR-02,Primary care,2025-12-30,2026-01-17,2026-01-20,Active,,Main Campus
+EP-0074,PT-0064,Lumbar,Lumbar radiculopathy,Nonsurgical,Dr. C. Osei,PR-03,Other specialist,2025-08-04,2025-08-12,2025-08-23,Active,,Main Campus
+EP-0075,PT-0065,Cervical,Cervical disc herniation,Surgical evaluation,Dr. C. Osei,PR-03,Emergency department,2024-06-26,2024-07-08,2024-07-11,Active,,Main Campus
+EP-0076,PT-0066,Lumbar,Lumbar spondylolisthesis,Surgical evaluation,Dr. C. Osei,PR-03,Primary care,2025-07-17,2025-08-09,2025-08-16,Active,,North Clinic
+EP-0077,PT-0067,Lumbar,Degenerative disc disease,Surgical evaluation,Dr. A. Rivera,PR-01,Self-referral,2025-10-07,2025-10-25,2025-10-27,Active,,Main Campus
+EP-0078,PT-0068,Lumbar,Lumbar stenosis,Surgical evaluation,Dr. C. Osei,PR-03,Primary care,2024-09-24,2024-10-02,2024-10-13,Active,,Main Campus
+EP-0079,PT-0069,Lumbar,Degenerative disc disease,Surgical evaluation,Dr. B. Chen,PR-02,Other specialist,2024-07-27,2024-08-23,,Closed,2026-07-10,Main Campus
+EP-0080,PT-0070,Lumbar,Degenerative disc disease,Nonsurgical,Dr. E. Novak,PR-05,Physical therapist,2024-11-29,2024-12-17,2024-12-17,Closed,2026-07-04,Main Campus
+EP-0081,PT-0071,Lumbar,Lumbar stenosis,Surgical evaluation,Dr. C. Osei,PR-03,Urgent care,2023-11-14,2023-11-25,2023-11-26,Closed,2025-04-29,Main Campus
+EP-0082,PT-0071,Lumbar,Lumbar stenosis,Surgical evaluation,Dr. A. Rivera,PR-01,Self-referral,2025-08-15,2025-08-25,,Active,,Main Campus
+EP-0083,PT-0072,Cervical,Cervical radiculopathy,Surgical evaluation,Dr. C. Osei,PR-03,Physical therapist,2025-04-24,2025-05-01,2025-05-08,Lost to follow-up,,North Clinic
+EP-0084,PT-0073,Lumbar,Lumbar spondylolisthesis,Surgical evaluation,Dr. A. Rivera,PR-01,Urgent care,2025-04-14,2025-04-22,2025-05-05,Closed,2026-09-05,Main Campus
+EP-0085,PT-0074,Cervical,Cervical myelopathy,Surgical evaluation,Dr. A. Rivera,PR-01,Primary care,2025-08-27,2025-09-07,2025-09-11,Active,,Main Campus
+EP-0086,PT-0074,Cervical,Cervical disc herniation,Nonsurgical,Dr. A. Rivera,PR-01,Emergency department,2024-03-31,2024-04-06,2024-04-12,Closed,2026-02-08,Main Campus
+EP-0087,PT-0075,Deformity,Sagittal imbalance,Surgical evaluation,Dr. C. Osei,PR-03,Primary care,2024-12-21,2025-01-13,2025-01-20,Closed,2026-06-13,North Clinic
+EP-0088,PT-0076,Lumbar,Degenerative disc disease,Nonsurgical,Dr. C. Osei,PR-03,Self-referral,2023-08-11,2023-09-03,2023-09-10,Closed,2024-11-09,Main Campus
+EP-0089,PT-0077,Lumbar,Lumbar spondylolisthesis,Nonsurgical,Dr. E. Novak,PR-05,Physical therapist,2026-02-19,2026-03-01,2026-03-07,Active,,North Clinic
+EP-0090,PT-0077,Lumbar,Lumbar spondylolisthesis,Nonsurgical,Dr. D. Malhotra,PR-04,Emergency department,2024-07-08,2024-07-12,2024-07-24,Closed,2025-09-09,North Clinic
+EP-0091,PT-0078,Deformity,Adult degenerative scoliosis,Surgical evaluation,Dr. B. Chen,PR-02,Primary care,2025-09-29,2025-10-09,2025-10-23,Lost to follow-up,,Main Campus
+EP-0092,PT-0079,Lumbar,Lumbar spondylolisthesis,Nonsurgical,"K. Brooks, PA-C",PR-06,Primary care,2024-03-29,2024-04-05,2024-04-09,Closed,2025-10-07,North Clinic
+EP-0093,PT-0079,Cervical,Cervical radiculopathy,Nonsurgical,Dr. E. Novak,PR-05,Emergency department,2026-03-29,2026-03-31,2026-04-03,Active,,North Clinic
+EP-0094,PT-0080,Lumbar,Lumbar radiculopathy,Nonsurgical,Dr. D. Malhotra,PR-04,Self-referral,2024-12-27,2025-01-10,2025-01-23,Active,,Main Campus
+EP-0095,PT-0081,Deformity,Sagittal imbalance,Nonsurgical,Dr. B. Chen,PR-02,Primary care,2024-08-18,2024-09-07,2024-09-13,Active,,Main Campus
+EP-0096,PT-0082,Lumbar,Degenerative disc disease,Nonsurgical,Dr. E. Novak,PR-05,Physical therapist,2026-05-03,2026-05-19,2026-05-31,Active,,Main Campus
+EP-0097,PT-0083,Cervical,Cervical disc herniation,Surgical evaluation,Dr. B. Chen,PR-02,Physical therapist,2024-09-07,2024-09-26,,Closed,2026-08-20,North Clinic
+EP-0098,PT-0083,Cervical,Cervical radiculopathy,Surgical evaluation,Dr. A. Rivera,PR-01,Self-referral,2024-02-13,2024-02-25,2024-03-10,Closed,2025-07-25,North Clinic
+EP-0099,PT-0084,Lumbar,Lumbar stenosis,Surgical evaluation,Dr. C. Osei,PR-03,Urgent care,2024-06-16,2024-07-02,2024-07-12,Closed,2026-02-03,North Clinic
+EP-0100,PT-0085,Lumbar,Lumbar disc herniation,Nonsurgical,Dr. C. Osei,PR-03,Other specialist,2025-03-08,2025-03-09,2025-03-12,Closed,2026-08-22,North Clinic
+EP-0101,PT-0086,Cervical,Cervical stenosis,Nonsurgical,Dr. D. Malhotra,PR-04,Urgent care,2023-08-06,2023-08-09,2023-08-11,Lost to follow-up,,North Clinic
+EP-0102,PT-0087,Deformity,Sagittal imbalance,Surgical evaluation,Dr. C. Osei,PR-03,Primary care,2025-05-14,2025-06-01,2025-06-11,Active,,Main Campus
+EP-0103,PT-0088,Cervical,Cervical radiculopathy,Surgical evaluation,Dr. C. Osei,PR-03,Emergency department,2023-07-27,2023-08-18,2023-08-20,Closed,2025-04-05,Main Campus
+EP-0104,PT-0089,Cervical,Cervical myelopathy,Surgical evaluation,Dr. C. Osei,PR-03,Other specialist,2025-08-16,2025-09-04,2025-09-14,Active,,Main Campus
+EP-0105,PT-0090,Lumbar,Degenerative disc disease,Nonsurgical,Dr. D. Malhotra,PR-04,Physical therapist,2024-09-26,2024-09-30,2024-10-09,Closed,2026-02-13,North Clinic
+EP-0106,PT-0091,Cervical,Cervical radiculopathy,Nonsurgical,Dr. E. Novak,PR-05,Primary care,2023-11-02,2023-11-19,2023-11-23,Active,,Main Campus
+EP-0107,PT-0092,Cervical,Cervical stenosis,Surgical evaluation,Dr. B. Chen,PR-02,Primary care,2026-02-19,2026-03-06,2026-03-09,Active,,Main Campus
+EP-0108,PT-0093,Lumbar,Lumbar radiculopathy,Nonsurgical,Dr. D. Malhotra,PR-04,Emergency department,2026-04-09,2026-04-22,2026-05-03,Active,,Main Campus
+EP-0109,PT-0093,Cervical,Cervical myelopathy,Surgical evaluation,Dr. A. Rivera,PR-01,Other specialist,2025-10-19,2025-10-20,2025-10-22,Active,,Main Campus
+EP-0110,PT-0094,Lumbar,Lumbar disc herniation,Surgical evaluation,Dr. A. Rivera,PR-01,Physical therapist,2025-05-06,2025-05-15,2025-05-21,Active,,Main Campus
+EP-0111,PT-0095,Lumbar,Degenerative disc disease,Surgical evaluation,Dr. B. Chen,PR-02,Urgent care,2023-12-01,2023-12-19,2023-12-29,Closed,2025-09-19,Main Campus
+EP-0112,PT-0096,Cervical,Cervical stenosis,Surgical evaluation,Dr. C. Osei,PR-03,Emergency department,2023-11-04,2023-11-22,2023-12-04,Lost to follow-up,,Main Campus
+EP-0113,PT-0097,Thoracic,Thoracic disc herniation,Nonsurgical,Dr. E. Novak,PR-05,Urgent care,2025-03-01,2025-03-25,2025-03-27,Closed,2026-07-31,North Clinic
+EP-0114,PT-0098,Thoracic,Thoracic stenosis,Nonsurgical,Dr. B. Chen,PR-02,Primary care,2023-07-18,2023-07-28,,Closed,2024-08-21,North Clinic
+EP-0115,PT-0099,Cervical,Cervical radiculopathy,Surgical evaluation,Dr. B. Chen,PR-02,Other specialist,2025-07-12,2025-07-15,2025-07-16,Active,,Main Campus
+EP-0116,PT-0100,Lumbar,Lumbar spondylolisthesis,Surgical evaluation,Dr. C. Osei,PR-03,Self-referral,2026-02-14,2026-03-08,2026-03-16,Active,,North Clinic
+EP-0117,PT-0101,Cervical,Cervical myelopathy,Nonsurgical,Dr. E. Novak,PR-05,Self-referral,2026-03-27,2026-03-28,2026-04-09,Active,,North Clinic
+EP-0118,PT-0102,Thoracic,Thoracic compression fracture,Surgical evaluation,Dr. A. Rivera,PR-01,Emergency department,2025-11-07,2025-11-21,2025-11-26,Active,,Main Campus
+EP-0119,PT-0103,Cervical,Cervical stenosis,Surgical evaluation,Dr. B. Chen,PR-02,Self-referral,2026-03-30,2026-04-13,2026-04-19,Active,,Main Campus
+EP-0120,PT-0104,Lumbar,Lumbar radiculopathy,Nonsurgical,"K. Brooks, PA-C",PR-06,Self-referral,2024-10-10,2024-11-01,2024-11-08,Closed,2026-05-03,Main Campus
+EP-0121,PT-0105,Deformity,Sagittal imbalance,Nonsurgical,Dr. E. Novak,PR-05,Urgent care,2026-05-18,2026-06-08,2026-06-19,Active,,Main Campus
+EP-0122,PT-0105,Cervical,Cervical myelopathy,Nonsurgical,Dr. D. Malhotra,PR-04,Urgent care,2025-08-18,2025-08-27,2025-08-27,Active,,Main Campus
+EP-0123,PT-0106,Lumbar,Lumbar spondylolisthesis,Nonsurgical,Dr. D. Malhotra,PR-04,Emergency department,2024-09-23,2024-10-13,2024-10-24,Closed,2026-01-30,North Clinic
+EP-0124,PT-0107,Lumbar,Lumbar disc herniation,Surgical evaluation,Dr. B. Chen,PR-02,Emergency department,2024-08-28,2024-09-15,2024-09-19,Closed,2026-08-07,Main Campus
+EP-0125,PT-0107,Deformity,Adult idiopathic scoliosis,Surgical evaluation,Dr. B. Chen,PR-02,Primary care,2023-07-03,2023-07-15,2023-07-17,Active,,Main Campus
+EP-0126,PT-0108,Deformity,Sagittal imbalance,Surgical evaluation,Dr. B. Chen,PR-02,Physical therapist,2024-09-23,2024-10-17,2024-10-25,Closed,2026-01-08,North Clinic
+EP-0127,PT-0109,Cervical,Cervical myelopathy,Surgical evaluation,Dr. B. Chen,PR-02,Emergency department,2024-09-12,2024-09-17,2024-09-30,Lost to follow-up,,North Clinic
+EP-0128,PT-0110,Lumbar,Lumbar disc herniation,Nonsurgical,Dr. D. Malhotra,PR-04,Urgent care,2024-07-15,2024-08-06,2024-08-20,Closed,2025-08-28,Main Campus
+EP-0129,PT-0111,Thoracic,Thoracic stenosis,Surgical evaluation,Dr. C. Osei,PR-03,Urgent care,2026-04-24,2026-05-08,2026-05-19,Active,,North Clinic
+EP-0130,PT-0112,Cervical,Cervical radiculopathy,Surgical evaluation,Dr. C. Osei,PR-03,Other specialist,2026-05-18,2026-06-13,2026-06-23,Active,,Main Campus
+EP-0131,PT-0113,Lumbar,Lumbar stenosis,Surgical evaluation,Dr. B. Chen,PR-02,Self-referral,2024-10-19,2024-10-30,2024-11-07,Closed,2026-07-11,Main Campus
+EP-0132,PT-0113,Deformity,Sagittal imbalance,Nonsurgical,"K. Brooks, PA-C",PR-06,Primary care,2023-11-25,2023-12-01,2023-12-09,Closed,2025-01-13,Main Campus
+EP-0133,PT-0114,Cervical,Cervical myelopathy,Surgical evaluation,Dr. A. Rivera,PR-01,Self-referral,2024-03-06,2024-03-25,2024-04-06,Active,,North Clinic
+EP-0134,PT-0115,Thoracic,Thoracic compression fracture,Nonsurgical,Dr. D. Malhotra,PR-04,Self-referral,2023-08-12,2023-08-22,2023-08-23,Closed,2025-02-11,Main Campus
+EP-0135,PT-0116,Cervical,Cervical stenosis,Nonsurgical,Dr. D. Malhotra,PR-04,Emergency department,2023-11-27,2023-12-10,2023-12-12,Lost to follow-up,,Main Campus
+EP-0136,PT-0117,Lumbar,Lumbar spondylolisthesis,Nonsurgical,Dr. B. Chen,PR-02,Self-referral,2024-03-31,2024-04-21,2024-04-24,Closed,2026-03-09,Main Campus
+EP-0137,PT-0117,Cervical,Cervical myelopathy,Nonsurgical,"K. Brooks, PA-C",PR-06,Physical therapist,2025-03-21,2025-04-02,2025-04-09,Closed,2027-02-14,Main Campus
+EP-0138,PT-0118,Lumbar,Lumbar stenosis,Nonsurgical,Dr. E. Novak,PR-05,Primary care,2023-07-25,2023-08-09,,Closed,2024-10-11,North Clinic
+EP-0139,PT-0119,Lumbar,Degenerative disc disease,Surgical evaluation,Dr. C. Osei,PR-03,Emergency department,2025-01-29,2025-02-21,2025-02-25,Active,,Main Campus
+EP-0140,PT-0120,Lumbar,Lumbar radiculopathy,Surgical evaluation,Dr. A. Rivera,PR-01,Physical therapist,2024-02-09,2024-02-21,2024-02-24,Active,,Main Campus
+EP-0141,PT-0120,Lumbar,Lumbar stenosis,Surgical evaluation,Dr. C. Osei,PR-03,Self-referral,2024-01-28,2024-02-21,2024-02-24,Closed,2025-12-11,Main Campus
+EP-0142,PT-0121,Cervical,Cervical stenosis,Surgical evaluation,Dr. A. Rivera,PR-01,Other specialist,2026-02-13,2026-02-21,2026-02-22,Active,,Main Campus
+EP-0143,PT-0122,Lumbar,Degenerative disc disease,Surgical evaluation,Dr. B. Chen,PR-02,Physical therapist,2023-12-29,2024-01-19,2024-01-29,Closed,2025-09-10,Main Campus
+EP-0144,PT-0123,Thoracic,Thoracic stenosis,Nonsurgical,Dr. E. Novak,PR-05,Primary care,2024-09-16,2024-09-21,2024-10-05,Closed,2025-10-06,Main Campus
+EP-0145,PT-0124,Cervical,Cervical disc herniation,Surgical evaluation,Dr. B. Chen,PR-02,Urgent care,2025-12-07,2025-12-18,2025-12-30,Active,,North Clinic
+EP-0146,PT-0125,Lumbar,Lumbar radiculopathy,Nonsurgical,"K. Brooks, PA-C",PR-06,Emergency department,2025-01-19,2025-01-20,2025-01-29,Closed,2026-04-09,Main Campus
+EP-0147,PT-0126,Lumbar,Lumbar stenosis,Surgical evaluation,Dr. C. Osei,PR-03,Urgent care,2025-08-16,2025-08-22,2025-08-29,Active,,North Clinic
+EP-0148,PT-0127,Lumbar,Lumbar spondylolisthesis,Surgical evaluation,Dr. B. Chen,PR-02,Physical therapist,2023-09-05,2023-10-03,2023-10-04,Active,,Main Campus
+EP-0149,PT-0127,Lumbar,Lumbar disc herniation,Nonsurgical,"K. Brooks, PA-C",PR-06,Urgent care,2026-03-17,2026-04-02,2026-04-04,Active,,Main Campus
+EP-0150,PT-0128,Cervical,Cervical disc herniation,Nonsurgical,Dr. C. Osei,PR-03,Physical therapist,2025-04-06,2025-04-14,2025-04-27,Active,,Main Campus
+EP-0151,PT-0128,Cervical,Cervical myelopathy,Surgical evaluation,Dr. C. Osei,PR-03,Other specialist,2026-01-04,2026-01-17,2026-01-17,Active,,Main Campus
+EP-0152,PT-0129,Lumbar,Degenerative disc disease,Surgical evaluation,Dr. C. Osei,PR-03,Physical therapist,2025-11-29,2025-12-05,2025-12-15,Active,,Main Campus
+EP-0153,PT-0130,Lumbar,Degenerative disc disease,Surgical evaluation,Dr. C. Osei,PR-03,Urgent care,2025-02-14,2025-02-19,,Active,,Main Campus
+EP-0154,PT-0131,Lumbar,Lumbar disc herniation,Nonsurgical,Dr. E. Novak,PR-05,Emergency department,2024-06-11,2024-06-15,2024-06-26,Closed,2026-05-16,Main Campus
+EP-0155,PT-0131,Lumbar,Lumbar spondylolisthesis,Nonsurgical,Dr. D. Malhotra,PR-04,Primary care,2024-12-06,2024-12-28,2024-12-31,Lost to follow-up,,Main Campus
+EP-0156,PT-0132,Cervical,Cervical stenosis,Surgical evaluation,Dr. B. Chen,PR-02,Emergency department,2025-01-07,2025-01-30,2025-02-08,Closed,2026-12-15,Main Campus
+EP-0157,PT-0133,Lumbar,Lumbar disc herniation,Nonsurgical,"K. Brooks, PA-C",PR-06,Urgent care,2026-02-10,2026-03-01,2026-03-04,Active,,Main Campus
+EP-0158,PT-0134,Deformity,Adult degenerative scoliosis,Surgical evaluation,Dr. B. Chen,PR-02,Primary care,2025-12-06,2025-12-09,2025-12-09,Active,,Main Campus
+EP-0159,PT-0135,Lumbar,Lumbar stenosis,Nonsurgical,Dr. B. Chen,PR-02,Urgent care,2024-07-27,2024-08-18,2024-08-30,Active,,Main Campus
+EP-0160,PT-0136,Lumbar,Lumbar radiculopathy,Surgical evaluation,Dr. A. Rivera,PR-01,Self-referral,2026-01-27,2026-02-20,2026-02-27,Active,,Main Campus
+EP-0161,PT-0137,Cervical,Cervical disc herniation,Nonsurgical,Dr. D. Malhotra,PR-04,Self-referral,2025-07-20,2025-07-29,,Lost to follow-up,,North Clinic
+EP-0162,PT-0138,Lumbar,Degenerative disc disease,Nonsurgical,Dr. A. Rivera,PR-01,Urgent care,2024-07-27,2024-08-15,2024-08-15,Closed,2026-05-22,North Clinic
+EP-0163,PT-0139,Lumbar,Lumbar radiculopathy,Nonsurgical,Dr. D. Malhotra,PR-04,Primary care,2023-12-10,2023-12-19,2023-12-24,Active,,North Clinic
+EP-0164,PT-0139,Cervical,Cervical myelopathy,Nonsurgical,Dr. E. Novak,PR-05,Primary care,2024-05-24,2024-06-11,2024-06-11,Closed,2025-09-05,North Clinic
+EP-0165,PT-0140,Deformity,Adult idiopathic scoliosis,Surgical evaluation,Dr. A. Rivera,PR-01,Physical therapist,2025-05-21,2025-05-30,2025-06-07,Active,,North Clinic
+EP-0166,PT-0140,Thoracic,Thoracic compression fracture,Nonsurgical,"K. Brooks, PA-C",PR-06,Self-referral,2025-04-06,2025-04-16,2025-04-25,Closed,2026-07-27,North Clinic
+EP-0167,PT-0141,Lumbar,Lumbar stenosis,Nonsurgical,Dr. D. Malhotra,PR-04,Physical therapist,2025-05-17,2025-06-04,2025-06-16,Active,,Main Campus
+EP-0168,PT-0142,Lumbar,Degenerative disc disease,Surgical evaluation,Dr. A. Rivera,PR-01,Self-referral,2023-09-04,2023-09-16,2023-09-23,Active,,Main Campus
+EP-0169,PT-0142,Deformity,Adult degenerative scoliosis,Surgical evaluation,Dr. C. Osei,PR-03,Physical therapist,2024-02-04,2024-02-29,2024-03-11,Closed,2025-09-10,Main Campus
+EP-0170,PT-0143,Lumbar,Lumbar disc herniation,Surgical evaluation,Dr. C. Osei,PR-03,Primary care,2025-01-15,2025-01-27,,Active,,Main Campus
+EP-0171,PT-0144,Cervical,Cervical myelopathy,Surgical evaluation,Dr. A. Rivera,PR-01,Emergency department,2024-06-22,2024-07-11,2024-07-17,Closed,2025-10-01,Main Campus
+EP-0172,PT-0145,Lumbar,Lumbar radiculopathy,Surgical evaluation,Dr. B. Chen,PR-02,Other specialist,2026-04-30,2026-05-18,2026-05-29,Active,,North Clinic
+EP-0173,PT-0146,Cervical,Cervical radiculopathy,Surgical evaluation,Dr. B. Chen,PR-02,Primary care,2025-07-06,2025-07-26,2025-07-26,Active,,North Clinic
+EP-0174,PT-0147,Cervical,Cervical radiculopathy,Nonsurgical,"K. Brooks, PA-C",PR-06,Other specialist,2023-09-24,2023-10-16,,Closed,2024-11-12,Main Campus
+EP-0175,PT-0148,Lumbar,Degenerative disc disease,Surgical evaluation,Dr. A. Rivera,PR-01,Physical therapist,2023-11-03,2023-11-26,2023-12-04,Active,,Main Campus
+EP-0176,PT-0149,Lumbar,Lumbar stenosis,Surgical evaluation,Dr. C. Osei,PR-03,Emergency department,2026-01-17,2026-02-06,2026-02-09,Active,,North Clinic
+EP-0177,PT-0150,Lumbar,Lumbar disc herniation,Nonsurgical,Dr. E. Novak,PR-05,Self-referral,2025-06-15,2025-06-26,2025-06-30,Active,,Main Campus
+EP-0178,PT-0151,Cervical,Cervical radiculopathy,Surgical evaluation,Dr. B. Chen,PR-02,Urgent care,2025-05-04,2025-05-20,2025-05-29,Active,,Main Campus
+EP-0179,PT-0152,Lumbar,Lumbar disc herniation,Nonsurgical,Dr. B. Chen,PR-02,Urgent care,2026-04-22,2026-05-13,2026-05-25,Active,,North Clinic
+EP-0180,PT-0153,Lumbar,Degenerative disc disease,Nonsurgical,"K. Brooks, PA-C",PR-06,Self-referral,2026-04-21,2026-05-19,2026-05-26,Active,,Main Campus
+EP-0181,PT-0154,Cervical,Cervical myelopathy,Surgical evaluation,Dr. B. Chen,PR-02,Physical therapist,2026-05-07,2026-05-18,,Active,,Main Campus
+EP-0182,PT-0155,Cervical,Cervical stenosis,Nonsurgical,"K. Brooks, PA-C",PR-06,Other specialist,2025-10-10,2025-11-01,2025-11-03,Active,,Main Campus
+EP-0183,PT-0156,Lumbar,Lumbar stenosis,Surgical evaluation,Dr. B. Chen,PR-02,Urgent care,2024-03-16,2024-03-24,2024-04-05,Closed,2025-09-20,Main Campus
+EP-0184,PT-0157,Lumbar,Lumbar spondylolisthesis,Surgical evaluation,Dr. A. Rivera,PR-01,Physical therapist,2025-08-19,2025-09-05,2025-09-18,Active,,Main Campus
+EP-0185,PT-0158,Cervical,Cervical stenosis,Nonsurgical,Dr. C. Osei,PR-03,Other specialist,2024-03-14,2024-03-21,2024-03-28,Active,,Main Campus
+EP-0186,PT-0159,Deformity,Adult degenerative scoliosis,Surgical evaluation,Dr. C. Osei,PR-03,Physical therapist,2025-10-27,2025-10-31,2025-11-13,Active,,Main Campus
+EP-0187,PT-0160,Lumbar,Lumbar disc herniation,Surgical evaluation,Dr. A. Rivera,PR-01,Physical therapist,2024-11-17,2024-12-06,2024-12-07,Lost to follow-up,,North Clinic

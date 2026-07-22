@@ -1,0 +1,162 @@
+﻿patientId,mrn,dob,age,sex,bmi,smoking,comorbidities,insurance,language,travelDistance,clinicLocation
+PT-0001,MRN-DEMO-100001,1965-01-10,61,Male,26,Current,Coronary artery disease,Commercial,English,>50 miles,Main Campus
+PT-0002,MRN-DEMO-100002,1985-04-11,41,Female,32.6,Current,Anxiety,Medicare,Vietnamese,>50 miles,Main Campus
+PT-0003,MRN-DEMO-100003,1965-12-23,61,Male,35.3,Never,Hypertension; Coronary artery disease,Self-pay,English,>50 miles,Main Campus
+PT-0004,MRN-DEMO-100004,1996-03-08,30,Male,,Never,,Commercial,English,>50 miles,Main Campus
+PT-0005,MRN-DEMO-100005,1978-11-26,48,Female,21.3,Never,,Medicare,English,10-25 miles,Main Campus
+PT-0006,MRN-DEMO-100006,1969-01-20,57,Female,26.4,Current,Diabetes,Medicare,English,<10 miles,Main Campus
+PT-0007,MRN-DEMO-100007,1986-02-27,40,Female,31,Former,Anxiety; Coronary artery disease,Commercial,Mandarin,25-50 miles,North Clinic
+PT-0008,MRN-DEMO-100008,1958-03-12,68,Male,41.1,Never,Anxiety; Depression,Medicaid,English,<10 miles,North Clinic
+PT-0009,MRN-DEMO-100009,1978-08-07,48,Female,30.9,Never,,Medicare,English,>50 miles,North Clinic
+PT-0010,MRN-DEMO-100010,1982-07-02,44,Female,41.1,Never,,Self-pay,Mandarin,10-25 miles,Main Campus
+PT-0011,MRN-DEMO-100011,1968-02-16,58,Male,25.6,Former,Obesity,Commercial,English,>50 miles,North Clinic
+PT-0012,MRN-DEMO-100012,1971-07-19,55,Male,41.3,Never,,Workers' compensation,Vietnamese,<10 miles,Main Campus
+PT-0013,MRN-DEMO-100013,1957-08-06,69,Male,42.5,Never,Anxiety; Chronic kidney disease; COPD,Medicare,English,10-25 miles,North Clinic
+PT-0014,MRN-DEMO-100014,1957-12-17,69,Female,24.9,Never,,Workers' compensation,Punjabi,<10 miles,Main Campus
+PT-0015,MRN-DEMO-100015,1979-03-26,47,Female,18.7,Current,Osteoporosis; Hypertension,Medicare,English,<10 miles,Main Campus
+PT-0016,MRN-DEMO-100016,1952-05-19,74,Female,34.6,Never,COPD,Medicare,English,<10 miles,Main Campus
+PT-0017,MRN-DEMO-100017,1964-04-11,62,Female,28.2,Never,Hypertension; Anxiety,Commercial,English,>50 miles,Main Campus
+PT-0018,MRN-DEMO-100018,,57,Female,33.8,Current,Osteoporosis; Coronary artery disease,Workers' compensation,English,10-25 miles,Main Campus
+PT-0019,MRN-DEMO-100019,1980-02-28,46,Female,17,Never,Diabetes; Hypertension,Commercial,English,<10 miles,North Clinic
+PT-0020,MRN-DEMO-100020,1990-01-22,36,Male,27.1,Former,Osteoporosis; Diabetes,Medicaid,Punjabi,>50 miles,Main Campus
+PT-0021,MRN-DEMO-100021,1970-12-01,56,Male,37,Current,COPD; Coronary artery disease,Medicare,English,10-25 miles,Main Campus
+PT-0022,MRN-DEMO-100022,1961-01-28,65,Male,25.1,Former,Anxiety,Medicare,English,10-25 miles,North Clinic
+PT-0023,MRN-DEMO-100023,1972-03-17,54,Male,36.2,Former,,Commercial,Spanish,25-50 miles,North Clinic
+PT-0024,MRN-DEMO-100024,1969-03-28,57,Male,26.2,Never,Diabetes; Chronic kidney disease; Coronary artery disease,Workers' compensation,Mandarin,10-25 miles,Main Campus
+PT-0025,MRN-DEMO-100025,1951-04-12,75,Female,24.2,Former,,Medicare,Mandarin,25-50 miles,Main Campus
+PT-0026,MRN-DEMO-100026,1966-07-28,60,Female,28.8,Never,,Medicare,English,25-50 miles,Main Campus
+PT-0027,MRN-DEMO-100027,1986-11-06,40,Female,24.6,Current,Chronic kidney disease; Coronary artery disease,Commercial,English,10-25 miles,Main Campus
+PT-0028,MRN-DEMO-100028,1964-10-24,62,Male,39.7,Never,Depression; Hypertension,Medicare,Spanish,<10 miles,Main Campus
+PT-0029,MRN-DEMO-100029,1970-12-12,56,Female,29.4,Former,,Medicare,English,<10 miles,Main Campus
+PT-0030,MRN-DEMO-100030,1963-08-17,63,Female,34.3,Never,COPD,Medicare,English,25-50 miles,North Clinic
+PT-0031,MRN-DEMO-100031,1989-07-20,37,Female,28.2,Never,Diabetes,Commercial,Mandarin,>50 miles,North Clinic
+PT-0032,MRN-DEMO-100032,1968-02-25,58,Female,32,Current,Hypertension; Osteoporosis,Medicare,Vietnamese,25-50 miles,North Clinic
+PT-0033,MRN-DEMO-100033,1966-03-26,60,Male,29.1,Never,,Medicare,Mandarin,25-50 miles,North Clinic
+PT-0034,MRN-DEMO-100034,1977-03-18,49,Female,36.1,Never,Coronary artery disease,Commercial,Vietnamese,25-50 miles,North Clinic
+PT-0035,MRN-DEMO-100035,1997-08-20,29,Female,29.5,Never,,Medicaid,Spanish,10-25 miles,Main Campus
+PT-0036,MRN-DEMO-100036,1989-03-14,37,Female,30.6,Former,Depression,Commercial,Spanish,>50 miles,North Clinic
+PT-0037,MRN-DEMO-100037,1976-11-13,50,Female,33.8,Never,Hypertension; Diabetes,Commercial,Vietnamese,25-50 miles,Main Campus
+PT-0038,MRN-DEMO-100038,1946-10-02,80,Male,19.9,Never,Obesity; Coronary artery disease,Medicare,Punjabi,25-50 miles,North Clinic
+PT-0039,MRN-DEMO-100039,1974-06-04,52,Female,27.8,Never,Obesity; COPD; Depression,Self-pay,English,<10 miles,Main Campus
+PT-0040,MRN-DEMO-100040,1971-03-09,55,Male,31.7,Never,Chronic kidney disease,Commercial,English,25-50 miles,Main Campus
+PT-0041,MRN-DEMO-100041,1959-12-28,67,Female,27.6,Former,Coronary artery disease,Medicare,English,25-50 miles,North Clinic
+PT-0042,MRN-DEMO-100042,1951-05-06,75,Male,31.8,,,Workers' compensation,English,<10 miles,North Clinic
+PT-0043,MRN-DEMO-100043,1963-03-02,63,Female,28.8,Former,Osteoporosis; Diabetes; Coronary artery disease; Anxiety,Commercial,Mandarin,25-50 miles,Main Campus
+PT-0044,MRN-DEMO-100044,1979-03-26,47,Male,33.8,Never,Osteoporosis; Diabetes,Self-pay,English,10-25 miles,Main Campus
+PT-0045,MRN-DEMO-100045,1966-07-26,60,Male,26.1,Former,,Commercial,English,25-50 miles,Main Campus
+PT-0046,MRN-DEMO-100046,1975-04-10,51,Male,29.6,Never,Anxiety; Depression,Medicare,English,25-50 miles,Main Campus
+PT-0047,MRN-DEMO-100047,1999-07-07,27,Male,26.8,Former,Depression; Hypertension,Commercial,English,25-50 miles,Main Campus
+PT-0048,MRN-DEMO-100048,1965-08-12,61,Male,29.9,Never,,Medicare,Spanish,10-25 miles,Main Campus
+PT-0049,MRN-DEMO-100049,1995-06-25,31,Female,27.6,Former,Hypertension,Commercial,English,25-50 miles,Main Campus
+PT-0050,MRN-DEMO-100050,1967-11-24,59,Male,29.2,Former,Coronary artery disease,Medicaid,Vietnamese,25-50 miles,North Clinic
+PT-0051,MRN-DEMO-100051,1968-07-08,58,Female,28.1,Never,COPD,Medicare,Punjabi,10-25 miles,North Clinic
+PT-0052,MRN-DEMO-100052,1959-05-17,67,Female,27.8,Never,,Commercial,English,25-50 miles,North Clinic
+PT-0053,MRN-DEMO-100053,1948-04-01,78,Male,20.4,Never,,Commercial,English,>50 miles,Main Campus
+PT-0054,MRN-DEMO-100054,1955-10-12,71,Female,27.4,Never,Chronic kidney disease; Depression,Self-pay,Vietnamese,<10 miles,Main Campus
+PT-0055,MRN-DEMO-100055,1942-01-25,84,Male,35.1,Never,Coronary artery disease,Commercial,Mandarin,25-50 miles,Main Campus
+PT-0056,MRN-DEMO-100056,1980-07-09,46,Female,22.3,Never,Osteoporosis; Obesity,Medicare,English,>50 miles,Main Campus
+PT-0057,MRN-DEMO-100057,1965-09-21,61,Male,28.6,Never,Osteoporosis; Anxiety; COPD,Medicaid,Punjabi,>50 miles,Main Campus
+PT-0058,MRN-DEMO-100058,1982-04-16,44,Female,18.8,Current,,Medicare,English,25-50 miles,Main Campus
+PT-0059,MRN-DEMO-100059,1975-08-17,51,Male,28.1,Never,Diabetes; Obesity,Medicare,Mandarin,10-25 miles,Main Campus
+PT-0060,MRN-DEMO-100060,1971-10-24,55,Female,28.9,Never,Osteoporosis; Chronic kidney disease,Medicare,English,10-25 miles,Main Campus
+PT-0061,MRN-DEMO-100061,1971-10-01,55,Female,20.4,Never,Diabetes,Commercial,English,10-25 miles,North Clinic
+PT-0062,MRN-DEMO-100062,1958-04-15,68,Male,32.5,Current,Anxiety,Commercial,English,25-50 miles,Main Campus
+PT-0063,MRN-DEMO-100063,1970-12-11,56,Male,21.3,Former,Chronic kidney disease,Medicaid,English,25-50 miles,Main Campus
+PT-0064,MRN-DEMO-100064,1981-07-11,45,Female,27,Never,Coronary artery disease; Diabetes,Commercial,Punjabi,<10 miles,Main Campus
+PT-0065,MRN-DEMO-100065,1958-02-11,68,Female,22.6,Never,Diabetes; Osteoporosis; COPD,Commercial,English,<10 miles,Main Campus
+PT-0066,MRN-DEMO-100066,1979-01-23,47,Male,34.3,Former,Osteoporosis; Anxiety; Coronary artery disease,Commercial,Spanish,<10 miles,North Clinic
+PT-0067,MRN-DEMO-100067,1973-11-14,53,Female,31,Never,,Commercial,Mandarin,<10 miles,Main Campus
+PT-0068,MRN-DEMO-100068,1967-02-22,59,Male,30.3,Current,Osteoporosis,Medicare,Vietnamese,>50 miles,Main Campus
+PT-0069,MRN-DEMO-100069,1971-12-28,55,Male,36.5,Former,COPD; Anxiety,Commercial,Punjabi,25-50 miles,Main Campus
+PT-0070,MRN-DEMO-100070,1980-11-03,46,Female,23.4,Never,Hypertension; Depression,Medicaid,Vietnamese,25-50 miles,Main Campus
+PT-0071,MRN-DEMO-100071,1963-02-09,63,Female,29.4,Current,Obesity; Diabetes,Commercial,Vietnamese,10-25 miles,Main Campus
+PT-0072,MRN-DEMO-100072,1992-06-15,34,Female,26.2,Never,Anxiety,Medicare,Mandarin,<10 miles,North Clinic
+PT-0073,MRN-DEMO-100073,1965-04-27,61,Female,30.8,Never,,Commercial,Vietnamese,10-25 miles,Main Campus
+PT-0074,MRN-DEMO-100074,1946-06-08,80,Female,32.3,Never,Anxiety,Medicare,Mandarin,<10 miles,Main Campus
+PT-0075,MRN-DEMO-100075,1986-03-24,40,Female,27.7,Former,,Workers' compensation,English,<10 miles,North Clinic
+PT-0076,MRN-DEMO-100076,1972-05-08,54,Female,31.7,Never,,Commercial,Spanish,25-50 miles,Main Campus
+PT-0077,MRN-DEMO-100077,1959-02-27,67,Male,35.4,Former,Osteoporosis; COPD,Medicaid,English,10-25 miles,North Clinic
+PT-0078,MRN-DEMO-100078,1969-06-15,57,Male,28.4,Former,,Commercial,English,10-25 miles,Main Campus
+PT-0079,MRN-DEMO-100079,1979-11-26,47,Male,34.4,Never,Anxiety; Diabetes,Medicare,English,<10 miles,North Clinic
+PT-0080,MRN-DEMO-100080,1960-09-10,66,Male,25.9,Never,,Commercial,Punjabi,25-50 miles,Main Campus
+PT-0081,MRN-DEMO-100081,1981-02-08,45,Male,22.6,Never,,Medicare,English,10-25 miles,Main Campus
+PT-0082,MRN-DEMO-100082,1973-06-26,53,Female,29.2,Never,,Commercial,English,<10 miles,Main Campus
+PT-0083,MRN-DEMO-100083,1969-10-09,57,Female,27.5,Never,Coronary artery disease,Commercial,Vietnamese,<10 miles,North Clinic
+PT-0084,MRN-DEMO-100084,1992-08-08,34,Male,26.9,Never,Hypertension,Commercial,English,>50 miles,North Clinic
+PT-0085,MRN-DEMO-100085,1978-10-07,48,Female,34.2,Former,Chronic kidney disease; Anxiety; Obesity,Medicare,English,10-25 miles,North Clinic
+PT-0086,MRN-DEMO-100086,1966-11-18,60,Male,29.9,Never,,Medicaid,Vietnamese,<10 miles,North Clinic
+PT-0087,MRN-DEMO-100087,1946-01-20,80,Male,20.4,Former,Depression; Anxiety,Self-pay,English,25-50 miles,Main Campus
+PT-0088,MRN-DEMO-100088,1957-10-21,69,Female,30.2,Never,Osteoporosis,Commercial,Spanish,<10 miles,Main Campus
+PT-0089,MRN-DEMO-100089,1965-01-13,61,Female,31.1,Current,Diabetes; Depression,Commercial,English,<10 miles,Main Campus
+PT-0090,MRN-DEMO-100090,1963-12-17,63,Male,35.3,Current,,Commercial,English,10-25 miles,North Clinic
+PT-0091,MRN-DEMO-100091,1941-08-04,85,Male,26.5,Never,COPD,Commercial,Mandarin,<10 miles,Main Campus
+PT-0092,MRN-DEMO-100092,1966-06-20,60,Female,27.8,Never,Coronary artery disease,Medicare,English,10-25 miles,Main Campus
+PT-0093,MRN-DEMO-100093,1975-04-20,51,Male,24.7,Never,Anxiety; Diabetes; Obesity,Workers' compensation,English,>50 miles,Main Campus
+PT-0094,MRN-DEMO-100094,1985-06-27,41,Female,29.1,Current,Chronic kidney disease; Obesity,Medicare,English,25-50 miles,Main Campus
+PT-0095,MRN-DEMO-100095,1984-03-08,42,Female,28.3,Never,Hypertension,Medicaid,Vietnamese,25-50 miles,Main Campus
+PT-0096,MRN-DEMO-100096,1985-03-28,41,Male,35.1,Former,Anxiety; Obesity,Workers' compensation,English,<10 miles,Main Campus
+PT-0097,MRN-DEMO-100097,1973-02-09,53,Female,24.9,Former,Depression; Chronic kidney disease,Commercial,English,25-50 miles,North Clinic
+PT-0098,MRN-DEMO-100098,1948-07-11,78,Female,32.4,Former,COPD; Coronary artery disease,Commercial,English,25-50 miles,North Clinic
+PT-0099,MRN-DEMO-100099,2005-08-01,21,Male,30.7,Former,Coronary artery disease; Anxiety,Commercial,Punjabi,<10 miles,Main Campus
+PT-0100,MRN-DEMO-100100,2000-11-22,26,Female,30.4,Former,COPD,Medicare,English,<10 miles,North Clinic
+PT-0101,MRN-DEMO-100101,1971-05-11,55,Male,39.6,Never,Osteoporosis; Obesity,Medicaid,Vietnamese,<10 miles,North Clinic
+PT-0102,MRN-DEMO-100102,1966-09-21,60,Female,29.8,Never,Obesity; Osteoporosis; Hypertension,Commercial,English,25-50 miles,Main Campus
+PT-0103,MRN-DEMO-100103,1936-08-25,90,Male,25.7,Never,Anxiety; Chronic kidney disease; Obesity,Medicare,English,10-25 miles,Main Campus
+PT-0104,MRN-DEMO-100104,1950-07-14,76,Female,27.7,Never,Diabetes,Medicare,English,10-25 miles,Main Campus
+PT-0105,MRN-DEMO-100105,1969-11-23,57,Male,31,Never,Anxiety; Chronic kidney disease,Medicare,English,10-25 miles,Main Campus
+PT-0106,MRN-DEMO-100106,1989-03-05,37,Female,29.2,Never,,Medicare,English,<10 miles,North Clinic
+PT-0107,MRN-DEMO-100107,1968-03-13,58,Female,34.1,Current,Depression; Coronary artery disease,Workers' compensation,English,10-25 miles,Main Campus
+PT-0108,MRN-DEMO-100108,1991-08-03,35,Female,26.7,Former,,Commercial,English,25-50 miles,North Clinic
+PT-0109,MRN-DEMO-100109,1971-08-11,55,Female,31.7,Former,Depression; Osteoporosis,Medicaid,Spanish,>50 miles,North Clinic
+PT-0110,MRN-DEMO-100110,1955-02-28,71,Female,27,Former,,Medicare,English,25-50 miles,Main Campus
+PT-0111,MRN-DEMO-100111,1987-07-27,39,Male,22.5,Never,Diabetes,Medicare,English,>50 miles,North Clinic
+PT-0112,MRN-DEMO-100112,1979-09-06,47,Female,35,Never,COPD,Medicare,English,<10 miles,Main Campus
+PT-0113,MRN-DEMO-100113,1996-09-12,30,Male,35.5,Current,COPD; Coronary artery disease,Commercial,English,<10 miles,Main Campus
+PT-0114,MRN-DEMO-100114,1950-11-08,76,Female,30.3,Never,Osteoporosis,Commercial,English,>50 miles,North Clinic
+PT-0115,MRN-DEMO-100115,1963-01-13,63,Male,20.3,Never,COPD; Depression,Commercial,English,<10 miles,Main Campus
+PT-0116,MRN-DEMO-100116,1955-05-04,71,Female,26.6,Never,Hypertension,Workers' compensation,Punjabi,10-25 miles,Main Campus
+PT-0117,MRN-DEMO-100117,1962-05-21,64,Female,35.7,Current,,Commercial,English,>50 miles,Main Campus
+PT-0118,MRN-DEMO-100118,1980-07-06,46,Male,36,Former,Anxiety; Coronary artery disease,Medicare,Punjabi,10-25 miles,North Clinic
+PT-0119,MRN-DEMO-100119,1980-12-24,46,Female,32.7,Former,,Medicare,Punjabi,>50 miles,Main Campus
+PT-0120,MRN-DEMO-100120,1980-03-20,46,Male,27.3,Never,COPD,Medicare,English,10-25 miles,Main Campus
+PT-0121,MRN-DEMO-100121,1982-02-05,44,Male,33,Former,,Medicare,Vietnamese,25-50 miles,Main Campus
+PT-0122,MRN-DEMO-100122,1952-06-22,74,Male,31.4,Never,Obesity; Osteoporosis; Anxiety,Commercial,English,25-50 miles,Main Campus
+PT-0123,MRN-DEMO-100123,1962-05-14,64,Female,19.4,Former,Coronary artery disease,Medicaid,Mandarin,10-25 miles,Main Campus
+PT-0124,MRN-DEMO-100124,1964-02-26,62,Male,30.5,Former,Hypertension,Medicare,Vietnamese,25-50 miles,North Clinic
+PT-0125,MRN-DEMO-100125,1978-02-19,48,Female,17.7,Never,Chronic kidney disease; Anxiety,Medicare,English,25-50 miles,Main Campus
+PT-0126,MRN-DEMO-100126,1976-07-06,50,Male,30.9,Former,COPD; Anxiety; Depression,Commercial,Mandarin,<10 miles,North Clinic
+PT-0127,MRN-DEMO-100127,1971-12-01,55,Male,39.8,Never,,Commercial,English,10-25 miles,Main Campus
+PT-0128,MRN-DEMO-100128,1988-01-27,38,Female,28.1,Never,Osteoporosis; Diabetes,Medicare,English,<10 miles,Main Campus
+PT-0129,MRN-DEMO-100129,1957-12-08,69,Male,21.7,Never,Coronary artery disease,Commercial,Spanish,<10 miles,Main Campus
+PT-0130,MRN-DEMO-100130,1991-10-25,35,Male,35.4,Never,Diabetes,Commercial,Spanish,<10 miles,Main Campus
+PT-0131,MRN-DEMO-100131,1992-12-01,34,Male,20.6,Current,,Commercial,Spanish,25-50 miles,Main Campus
+PT-0132,MRN-DEMO-100132,1960-07-28,66,Male,27.2,Former,,Commercial,English,<10 miles,Main Campus
+PT-0133,MRN-DEMO-100133,1963-12-05,63,Female,32.4,Never,Chronic kidney disease,Workers' compensation,Mandarin,>50 miles,Main Campus
+PT-0134,MRN-DEMO-100134,1964-11-01,62,Female,33.3,Former,,Medicare,English,<10 miles,Main Campus
+PT-0135,MRN-DEMO-100135,1955-04-28,71,Male,30.8,Former,Diabetes; Anxiety; Osteoporosis,Medicare,Vietnamese,>50 miles,Main Campus
+PT-0136,MRN-DEMO-100136,1972-08-13,54,Female,41.1,Former,,Commercial,English,<10 miles,Main Campus
+PT-0137,MRN-DEMO-100137,1983-04-09,43,Male,37.1,Never,Obesity; COPD,Self-pay,English,<10 miles,North Clinic
+PT-0138,MRN-DEMO-100138,1977-12-23,49,Female,32.9,Never,,Medicare,English,10-25 miles,North Clinic
+PT-0139,MRN-DEMO-100139,1955-10-27,71,Female,27.8,Never,Chronic kidney disease; Anxiety; Hypertension,Medicaid,English,<10 miles,North Clinic
+PT-0140,MRN-DEMO-100140,1950-11-27,76,Male,24.4,Former,Osteoporosis; Chronic kidney disease,Commercial,English,>50 miles,North Clinic
+PT-0141,MRN-DEMO-100141,1966-08-17,60,Female,20.4,Current,COPD; Coronary artery disease,Medicare,English,10-25 miles,Main Campus
+PT-0142,MRN-DEMO-100142,1960-06-23,66,Male,23.7,Never,,Medicaid,Vietnamese,25-50 miles,Main Campus
+PT-0143,MRN-DEMO-100143,1961-06-23,65,Male,28.7,Former,Coronary artery disease; Anxiety,Workers' compensation,Mandarin,25-50 miles,Main Campus
+PT-0144,MRN-DEMO-100144,1976-12-12,50,Female,26.3,Never,Chronic kidney disease,Commercial,English,10-25 miles,Main Campus
+PT-0145,MRN-DEMO-100145,1986-08-03,40,Female,24.5,Never,Anxiety,Medicare,English,25-50 miles,North Clinic
+PT-0146,MRN-DEMO-100146,1975-05-24,51,Female,31.1,Never,Anxiety; Coronary artery disease; Chronic kidney disease,Medicare,English,25-50 miles,North Clinic
+PT-0147,MRN-DEMO-100147,1963-03-23,63,Male,35.2,Never,,Medicaid,English,>50 miles,Main Campus
+PT-0148,MRN-DEMO-100148,1965-02-14,61,Female,29.7,Current,,Commercial,English,10-25 miles,Main Campus
+PT-0149,MRN-DEMO-100149,1959-07-18,67,Female,31.6,Former,Diabetes; Coronary artery disease; Chronic kidney disease,Medicaid,English,<10 miles,North Clinic
+PT-0150,MRN-DEMO-100150,1973-05-15,53,Male,21.1,Current,COPD; Depression; Osteoporosis,Commercial,English,25-50 miles,Main Campus
+PT-0151,MRN-DEMO-100151,1934-01-10,92,Female,33.8,Current,Hypertension; Chronic kidney disease,Medicare,Spanish,<10 miles,Main Campus
+PT-0152,MRN-DEMO-100152,1998-07-09,28,Male,35.7,Never,,Medicare,English,<10 miles,North Clinic
+PT-0153,MRN-DEMO-100153,1967-08-06,59,Female,32.2,Former,,Commercial,Mandarin,>50 miles,Main Campus
+PT-0154,MRN-DEMO-100154,1980-02-11,46,Female,28.4,Never,Osteoporosis; Diabetes,Medicare,Punjabi,25-50 miles,Main Campus
+PT-0155,MRN-DEMO-100155,1962-01-19,64,Female,28,Never,COPD; Chronic kidney disease,Medicaid,Mandarin,10-25 miles,Main Campus
+PT-0156,MRN-DEMO-100156,1964-06-18,62,Female,19,Never,Depression,Commercial,Vietnamese,<10 miles,Main Campus
+PT-0157,MRN-DEMO-100157,1953-05-25,73,Male,28.7,Never,Chronic kidney disease,Medicare,English,<10 miles,Main Campus
+PT-0158,MRN-DEMO-100158,1988-09-13,38,Female,17,Never,Anxiety; Obesity; Depression,Commercial,Mandarin,10-25 miles,Main Campus
+PT-0159,MRN-DEMO-100159,1948-12-03,78,Male,26.9,Former,,Workers' compensation,Punjabi,>50 miles,Main Campus
+PT-0160,MRN-DEMO-100160,1947-07-19,79,Female,33.2,Former,,Medicare,English,10-25 miles,North Clinic
+PT-9001,MRN-DEMO-990011,1968-02-16,58,Male,25.6,Former,Obesity,Commercial,English,>50 miles,North Clinic

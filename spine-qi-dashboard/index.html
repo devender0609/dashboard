@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spine Quality &amp; Outcomes — Demonstration</title>
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+<div id="demo-banner">
+  DEMONSTRATION DATA — all patients, providers, and results on this screen are synthetic. No real patient information is present.
+</div>
+
+<div id="app-frame">
+  <aside id="sidebar">
+    <div class="brand">
+      <div class="brand-mark">S</div>
+      <div>
+        <div class="brand-name">Spine Quality</div>
+        <div class="brand-sub">Outcomes &amp; QI System</div>
+      </div>
+    </div>
+    <nav id="nav"></nav>
+    <div class="sidebar-footer">
+      <label class="role-label" for="role-select">Signed in as (demo)</label>
+      <select id="role-select" aria-label="Demo role selector"></select>
+      <div class="refresh-note" id="refresh-note"></div>
+    </div>
+  </aside>
+
+  <main id="main">
+    <header id="topbar">
+      <div id="page-title-block">
+        <h1 id="page-title"></h1>
+        <div id="page-context"></div>
+      </div>
+      <div id="global-filters"></div>
+    </header>
+    <div id="page-root" tabindex="-1"></div>
+  </main>
+</div>
+
+<div id="modal-layer" hidden></div>
+<div id="tooltip-layer" role="tooltip" hidden></div>
+
+<!-- Load order matters: libraries → data → engine → UI → pages → app -->
+<script src="js/lib/stats.js"></script>
+<script src="js/lib/csv.js"></script>
+<script src="js/data/seed.js"></script>
+<script src="js/data/store.js"></script>
+<script src="js/lib/measures.js"></script>
+<script src="js/ui/components.js"></script>
+<script src="js/ui/charts.js"></script>
+<script src="js/pages/executive.js"></script>
+<script src="js/pages/outcomes.js"></script>
+<script src="js/pages/surgical.js"></script>
+<script src="js/pages/nonsurgical.js"></script>
+<script src="js/pages/pathway.js"></script>
+<script src="js/pages/operations.js"></script>
+<script src="js/pages/registry.js"></script>
+<script src="js/pages/dataquality.js"></script>
+<script src="js/pages/admin.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

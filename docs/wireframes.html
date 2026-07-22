@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Spine Quality &amp; Outcomes — Wireframes (all pages)</title>
+<style>
+  body{font-family:"Segoe UI",system-ui,sans-serif;background:#f5f6f8;color:#222;margin:0;padding:28px;font-size:13px}
+  h1{font-size:20px} h2{font-size:15px;margin:34px 0 8px;border-bottom:2px solid #ccc;padding-bottom:4px}
+  .note{color:#666;font-size:12px;margin-bottom:18px}
+  .wf{background:#fff;border:1.5px solid #9aa4b0;border-radius:8px;padding:10px;max-width:980px;box-shadow:0 1px 3px rgba(0,0,0,.08);page-break-inside:avoid}
+  .row{display:flex;gap:8px;margin-bottom:8px}
+  .box{border:1.5px dashed #9aa4b0;border-radius:6px;padding:8px;background:#fafbfc;flex:1;min-height:34px}
+  .box b{font-size:11.5px;color:#334}
+  .box small{display:block;color:#778;font-size:10.5px;line-height:1.45}
+  .tall{min-height:90px}.short{min-height:22px}
+  .side{flex:0 0 130px;background:#eef2f7}
+  .banner{background:#efe9ff;border-color:#a08cd0;text-align:center}
+  @media print{body{background:#fff}.wf{box-shadow:none}}
+</style>
+</head>
+<body>
+<h1>Spine Quality &amp; Outcomes System — Wireframes</h1>
+<div class="note">Low-fidelity layout references for every page. The working prototype (spine-qi-dashboard/index.html) implements these layouts; use the wireframes for stakeholder review of structure without visual polish debates. Shared frame on all pages: demonstration-data banner, left navigation with role-based visibility, page title with data-as-of stamp, persistent global filters (period · provider · region · location · treatment), print button.</div>
+
+<h2>0. Shared application frame</h2>
+<div class="wf">
+  <div class="row"><div class="box banner short"><b>DEMONSTRATION DATA banner (always visible)</b></div></div>
+  <div class="row">
+    <div class="box side tall"><b>Sidebar</b><small>Brand · nav grouped Dashboards / Work / Governance · overdue-worklist badge · demo role selector · last-refresh stamp</small></div>
+    <div class="box tall"><b>Header</b><small>Page title · period + data-as-of + adapter · global filters · Print report</small><br><b>Page body</b><small>Cards grid, charts with denominators, tables with drill-down rows, modal layer for episode lists and patient timelines, tooltip layer for measure definitions</small></div>
+  </div>
+</div>
+
+<h2>1. Executive Overview</h2>
+<div class="wf">
+  <div class="row"><div class="box"><b>14 KPI tiles</b><small>Active episodes · new patients · surgical volume · PROM completion · MCID 12m · 30-day readmit · 90-day reop · major complications · avg LOS · satisfaction · referral→visit · missed visits · overdue follow-up · lost to follow-up · baseline PROM capture — each tile: value, numerator/denominator, 95% CI where applicable, RAG dot only when thresholds defined, MoM trend, tooltip definition, click = responsible episode list</small></div></div>
+  <div class="row"><div class="box tall"><b>New episodes per month (bar, 12 mo)</b></div><div class="box tall"><b>Procedures per month (bar, 12 mo)</b></div></div>
+  <div class="row"><div class="box short"><b>Methodology note</b><small>RAG rules · drill-down rule · no significance claims</small></div></div>
+</div>
+
+<h2>2. Patient Outcomes</h2>
+<div class="wf">
+  <div class="row"><div class="box short"><b>Cohort filters</b><small>Instrument · age · sex · BMI · smoking · comorbidity burden · MIS/open · primary/revision (plus global filters)</small></div></div>
+  <div class="row"><div class="box short banner"><b>Threshold provenance warning when MCID row is unapproved</b></div></div>
+  <div class="row"><div class="box tall"><b>Longitudinal trajectory (line)</b><small>Mean + median across baseline→24m · n contributing per timepoint printed beneath — never a graph without a denominator</small></div><div class="box tall"><b>Follow-up completion by timepoint (bar)</b><small>Collected ÷ due per timepoint</small></div></div>
+  <div class="row"><div class="box"><b>Timepoint summary table</b><small>n collected · n due · completion · mean (95% CI) · median · mean Δ · median Δ · MCID met x/n (%) · deteriorated x/n</small></div></div>
+</div>
+
+<h2>3. Surgical Quality</h2>
+<div class="wf">
+  <div class="row"><div class="box"><b>KPI tiles</b><small>Procedures · any-complication % · ED visits · readmission · reoperation · mortality — all with x/n + CI</small></div></div>
+  <div class="row"><div class="box short banner"><b>Pending-adjudication banner when unreviewed events exist</b></div></div>
+  <div class="row"><div class="box tall"><b>Complication types (bar)</b></div><div class="box tall"><b>Process metrics table</b><small>OR time / EBL / LOS: mean · median · IQR · SD + discharge destination table</small></div></div>
+  <div class="row"><div class="box"><b>By-surgeon table (alphabetical — never ranked)</b><small>Cases · case mix (deformity % / revision % / median levels) · unadjusted rate · 95% CI · small-n flag · click = case list → patient timeline. Raw vs risk-adjusted separation stated; adjusted view deferred to case-mix model</small></div></div>
+  <div class="row"><div class="box"><b>Case-level complication review table</b><small>For M&amp;M prep and adjudication</small></div></div>
+</div>
+
+<h2>4. Nonsurgical Quality</h2>
+<div class="wf">
+  <div class="row"><div class="box"><b>KPI tiles</b><small>Nonsurgical episodes · PT initiation · PT completion · injection completion · injection response 6w · opioid exposure &gt;6w · escalation to surgery · ED visits · no documented follow-up · symptoms worsened</small></div></div>
+  <div class="row"><div class="box tall"><b>Conservative-care funnel (bar)</b><small>Recommended → initiated → completed, denominators printed</small></div><div class="box tall"><b>Improvement at 3 months (bar)</b><small>Pain and function MCID share among paired scores</small></div></div>
+  <div class="row"><div class="box short"><b>Association-not-causation note</b></div></div>
+</div>
+
+<h2>5. Care-Pathway Tracker</h2>
+<div class="wf">
+  <div class="row"><div class="box short"><b>Category pills with counts</b><small>Imaging · authorization · PT · injection · surgery · overdue post-op · overdue PROMs · deterioration · unresolved complications · lost to follow-up</small></div></div>
+  <div class="row"><div class="box tall"><b>Worklist table</b><small>Category · patient/context · provider · recommended next action · owner · due date · status (overdue flagged) · row click = patient timeline · CSV/Excel export for huddles</small></div></div>
+</div>
+
+<h2>6. Operations</h2>
+<div class="wf">
+  <div class="row"><div class="box"><b>KPI tiles</b><small>Referral→visit median+IQR · seen ≤14 d (RAG) · missed appts · imaging time · decision→surgery · follow-up adherence · then explicit placeholders: third-next-available, prior-auth turnaround, OR cancellation, documentation completion, portal response — blank until feeds integrate (no fake numbers)</small></div></div>
+  <div class="row"><div class="box tall"><b>p-control chart: % seen ≤14 d by month</b><small>Centerline + 3σ limits; per-month n printed; special- vs common-cause note</small></div><div class="box tall"><b>First visits per month (bar)</b></div></div>
+</div>
+
+<h2>7. Patient Registry</h2>
+<div class="wf">
+  <div class="row"><div class="box short"><b>Search + export (CSV/Excel) + import (CSV/Excel)</b></div></div>
+  <div class="row"><div class="box tall"><b>Registry table</b><small>Patient · episode · region · diagnosis · provider · treatment status · most recent PROM · Δ from baseline · complication flag · follow-up status · next action · due date</small></div></div>
+  <div class="row"><div class="box tall"><b>Patient timeline modal (row click)</b><small>Demographics header · chronological events: referral, visits, plan, PT, injections, procedures, complications (red), PROMs, pending actions (red), closure · synthetic-data disclaimer</small></div></div>
+</div>
+
+<h2>8. Data Quality</h2>
+<div class="wf">
+  <div class="row"><div class="box"><b>KPI tiles</b><small>Errors (block reporting) · warnings · informational · data source + last refresh</small></div></div>
+  <div class="row"><div class="box"><b>Issues by category</b><small>Missing fields · duplicates · invalid dates · missing baselines · overdue PROMs · out-of-window · unreviewed complications · import rejections</small></div><div class="box"><b>Issue detail table (errors first, capped at 250 + export)</b></div></div>
+  <div class="row"><div class="box short"><b>Import history &amp; audit log</b></div></div>
+</div>
+
+<h2>9. Measure Builder &amp; Thresholds (Quality administrator only)</h2>
+<div class="wf">
+  <div class="row"><div class="box short"><b>Tabs: Measure definitions · New measure · MCID/PASS thresholds</b></div></div>
+  <div class="row"><div class="box tall"><b>Definitions table</b><small>ID · name · numerator · denominator · target · warning · current value x/n · owner · review cadence · status (Active / Display-only / Draft) · version count · row click = purpose, criteria, risk adjustment, version history</small></div></div>
+  <div class="row"><div class="box"><b>New-measure form</b><small>All governance fields; saves as Draft requiring data mapping + clinical approval</small></div><div class="box"><b>Threshold table</b><small>Instrument · population · MCID · PASS · direction · source · version date · approval status · edit creates new version, resets approval</small></div></div>
+</div>
+
+</body>
+</html>

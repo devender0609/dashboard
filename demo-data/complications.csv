@@ -1,0 +1,11 @@
+﻿complicationId,procedureId,episodeId,patientId,complicationType,date,timing,severity,relatedToProcedure,preventability,edVisit,readmission,reoperation,mortality,reviewStatus
+CX-0001,PX-0005,EP-0029,PT-0026,Medical complication,2024-04-02,90-day,Moderate (medical intervention),Yes,Not preventable,Yes,Yes,No,No,Adjudicated
+CX-0002,PX-0014,EP-0064,PT-0056,Nonunion / pseudarthrosis,2024-07-05,Later,Life-threatening,Uncertain,Possibly preventable,Yes,No,Yes,No,Adjudicated
+CX-0003,PX-0017,EP-0072,PT-0062,Dural tear,2025-06-13,Inpatient,Moderate (medical intervention),Yes,Possibly preventable,No,No,No,No,Adjudicated
+CX-0004,PX-0018,EP-0077,PT-0067,Venous thromboembolism,2026-04-02,90-day,Minor (no intervention),Yes,Preventable,Yes,Yes,No,No,Pending review
+CX-0005,PX-0026,EP-0097,PT-0083,Medical complication,2024-11-27,30-day,Major (invasive intervention),Yes,Not yet classified,No,No,No,No,Pending review
+CX-0006,PX-0027,EP-0098,PT-0083,Medical complication,2024-05-11,90-day,Minor (no intervention),Yes,Not preventable,No,No,No,No,Adjudicated
+CX-0007,PX-0030,EP-0115,PT-0099,Surgical site infection,2025-11-08,90-day,Moderate (medical intervention),Yes,Possibly preventable,Yes,Yes,No,No,Pending review
+CX-0008,PX-0037,EP-0140,PT-0120,Implant complication,2024-06-03,90-day,Minor (no intervention),Yes,Not preventable,Yes,No,Yes,No,Adjudicated
+CX-0009,PX-0001,EP-0003,PT-0003,Surgical site infection,2024-08-13,30-day,Major (invasive intervention),Yes,Possibly preventable,Yes,Yes,Yes,No,Adjudicated
+CX-0010,PX-0002,EP-0004,PT-0004,Medical complication,2024-01-10,30-day,Moderate (medical intervention),Yes,Not preventable,Yes,Yes,No,No,Adjudicated

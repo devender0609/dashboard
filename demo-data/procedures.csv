@@ -1,0 +1,51 @@
+﻿procedureId,episodeId,patientId,procedureDate,procedureType,primaryOrRevision,spineRegion,levels,approach,misOrOpen,operativeMinutes,ebl,lengthOfStay,dischargeDestination,surgeon,surgeonId,facility
+PX-0001,EP-0003,PT-0003,2024-07-26,Long-segment posterior fusion,Primary,Deformity,7,Posterior,Open,271,1030,6,Home,Dr. A. Rivera,PR-01,University Hospital
+PX-0002,EP-0004,PT-0004,2024-01-01,ACDF,Primary,Cervical,3,Anterior,Open,229,410,4,Home,Dr. A. Rivera,PR-01,University Hospital
+PX-0003,EP-0021,PT-0018,2024-08-09,ACDF,Primary,Cervical,1,Anterior,Open,62,30,3,Home,Dr. A. Rivera,PR-01,University Hospital
+PX-0004,EP-0028,PT-0025,2025-03-04,ALIF,Primary,Lumbar,2,Anterior,Open,244,210,6,Home,Dr. B. Chen,PR-02,University Hospital
+PX-0005,EP-0029,PT-0026,2024-02-25,Thoracic decompression,Primary,Thoracic,1,Posterior,Open,139,230,3,Home,Dr. A. Rivera,PR-01,University Hospital
+PX-0006,EP-0030,PT-0027,2025-11-11,TLIF,Primary,Lumbar,3,Posterior,Open,292,410,5,Home,Dr. B. Chen,PR-02,University Hospital
+PX-0007,EP-0035,PT-0031,2025-11-07,Lumbar microdiscectomy,Primary,Lumbar,1,Posterior,Open,99,150,2,Home with home health,Dr. B. Chen,PR-02,North Surgical Center
+PX-0008,EP-0037,PT-0033,2023-12-03,Cervical disc arthroplasty,Primary,Cervical,1,Anterior,MIS,211,70,1,Home,Dr. C. Osei,PR-03,North Surgical Center
+PX-0009,EP-0040,PT-0036,2025-09-04,TLIF,Primary,Lumbar,1,Posterior,MIS,111,330,4,Home,Dr. C. Osei,PR-03,North Surgical Center
+PX-0010,EP-0041,PT-0037,2024-06-21,Lumbar microdiscectomy,Primary,Lumbar,2,Posterior,MIS,341,310,2,Home with home health,Dr. C. Osei,PR-03,University Hospital
+PX-0011,EP-0051,PT-0045,2025-11-23,ACDF,Primary,Cervical,4,Anterior,Open,254,380,3,Skilled nursing facility,Dr. B. Chen,PR-02,University Hospital
+PX-0012,EP-0057,PT-0051,2024-03-05,Thoracic fusion,Primary,Thoracic,2,Posterior,Open,186,180,3,Home,Dr. A. Rivera,PR-01,North Surgical Center
+PX-0013,EP-0058,PT-0051,2023-12-16,Lumbar laminectomy,Primary,Lumbar,2,Posterior,MIS,165,330,0,Home,Dr. B. Chen,PR-02,North Surgical Center
+PX-0014,EP-0064,PT-0056,2023-12-17,Lumbar microdiscectomy,Revision,Lumbar,2,Posterior,MIS,234,420,0,Home,Dr. B. Chen,PR-02,University Hospital
+PX-0015,EP-0067,PT-0059,2026-02-21,Lumbar laminectomy,Primary,Lumbar,2,Posterior,Open,201,190,3,Skilled nursing facility,Dr. A. Rivera,PR-01,University Hospital
+PX-0016,EP-0069,PT-0061,2024-12-23,Posterior cervical laminectomy and fusion,Primary,Cervical,1,Posterior,Open,130,210,5,Home,Dr. B. Chen,PR-02,North Surgical Center
+PX-0017,EP-0072,PT-0062,2025-06-13,Anterior-posterior reconstruction,Primary,Deformity,10,Combined,Open,361,480,4,Home,Dr. C. Osei,PR-03,University Hospital
+PX-0018,EP-0077,PT-0067,2026-02-18,Lumbar microdiscectomy,Primary,Lumbar,1,Posterior,Open,185,400,3,Home,Dr. A. Rivera,PR-01,University Hospital
+PX-0019,EP-0078,PT-0068,2025-02-04,Lumbar microdiscectomy,Primary,Lumbar,1,Posterior,MIS,91,220,1,Home,Dr. C. Osei,PR-03,University Hospital
+PX-0020,EP-0081,PT-0071,2024-01-29,Lumbar microdiscectomy,Primary,Lumbar,2,Posterior,MIS,160,280,1,Home,Dr. C. Osei,PR-03,University Hospital
+PX-0021,EP-0082,PT-0071,2025-11-08,Lumbar laminectomy,Primary,Lumbar,4,Posterior,Open,309,390,4,Home,Dr. A. Rivera,PR-01,University Hospital
+PX-0022,EP-0083,PT-0072,2025-07-20,ACDF,Revision,Cervical,1,Anterior,Open,144,260,1,Home,Dr. C. Osei,PR-03,North Surgical Center
+PX-0023,EP-0084,PT-0073,2025-07-24,Lumbar microdiscectomy,Primary,Lumbar,1,Posterior,MIS,207,190,1,Home,Dr. A. Rivera,PR-01,University Hospital
+PX-0024,EP-0085,PT-0074,2025-11-24,ACDF,Primary,Cervical,1,Anterior,MIS,115,280,3,Home,Dr. A. Rivera,PR-01,University Hospital
+PX-0025,EP-0087,PT-0075,2025-04-19,Long-segment posterior fusion,Primary,Deformity,8,Posterior,Open,349,840,6,Home with home health,Dr. C. Osei,PR-03,North Surgical Center
+PX-0026,EP-0097,PT-0083,2024-11-12,Posterior cervical laminectomy and fusion,Primary,Cervical,1,Posterior,Open,283,110,4,Home,Dr. B. Chen,PR-02,North Surgical Center
+PX-0027,EP-0098,PT-0083,2024-03-31,ACDF,Primary,Cervical,2,Anterior,Open,149,100,3,Inpatient rehabilitation,Dr. A. Rivera,PR-01,North Surgical Center
+PX-0028,EP-0109,PT-0093,2026-03-03,ACDF,Primary,Cervical,1,Anterior,Open,156,330,3,Home,Dr. A. Rivera,PR-01,University Hospital
+PX-0029,EP-0111,PT-0095,2024-04-12,TLIF,Primary,Lumbar,1,Posterior,Open,124,250,3,Home,Dr. B. Chen,PR-02,University Hospital
+PX-0030,EP-0115,PT-0099,2025-10-04,ACDF,Primary,Cervical,1,Anterior,Open,95,160,2,Home,Dr. B. Chen,PR-02,University Hospital
+PX-0031,EP-0118,PT-0102,2026-01-05,Thoracic decompression,Primary,Thoracic,1,Posterior,Open,104,190,4,Home,Dr. A. Rivera,PR-01,University Hospital
+PX-0032,EP-0124,PT-0107,2024-11-16,TLIF,Primary,Lumbar,1,Posterior,Open,114,10,3,Home,Dr. B. Chen,PR-02,University Hospital
+PX-0033,EP-0125,PT-0107,2023-10-25,Long-segment posterior fusion,Primary,Deformity,9,Posterior,Open,377,1020,6,Home,Dr. B. Chen,PR-02,University Hospital
+PX-0034,EP-0126,PT-0108,2025-02-13,Long-segment posterior fusion,Primary,Deformity,6,Posterior,Open,351,600,5,Skilled nursing facility,Dr. B. Chen,PR-02,North Surgical Center
+PX-0035,EP-0127,PT-0109,2024-11-19,Posterior cervical laminectomy and fusion,Primary,Cervical,2,Posterior,Open,197,410,3,Home,Dr. B. Chen,PR-02,North Surgical Center
+PX-0036,EP-0133,PT-0114,2024-04-29,ACDF,Primary,Cervical,2,Anterior,Open,214,160,3,Home,Dr. A. Rivera,PR-01,North Surgical Center
+PX-0037,EP-0140,PT-0120,2024-04-22,Lumbar laminectomy,Primary,Lumbar,1,Posterior,Open,112,80,2,Home,Dr. A. Rivera,PR-01,University Hospital
+PX-0038,EP-0142,PT-0121,2026-04-13,Cervical disc arthroplasty,Revision,Cervical,4,Anterior,Open,346,540,4,Home,Dr. A. Rivera,PR-01,University Hospital
+PX-0039,EP-0143,PT-0122,2024-05-04,Lumbar laminectomy,Primary,Lumbar,2,Posterior,MIS,205,190,1,Home with home health,Dr. B. Chen,PR-02,University Hospital
+PX-0040,EP-0145,PT-0124,2026-03-15,Cervical foraminotomy,Primary,Cervical,3,Posterior,MIS,313,370,3,Home,Dr. B. Chen,PR-02,North Surgical Center
+PX-0041,EP-0151,PT-0128,2026-05-12,Posterior cervical laminectomy and fusion,Primary,Cervical,1,Posterior,Open,127,70,1,Home,Dr. C. Osei,PR-03,University Hospital
+PX-0042,EP-0152,PT-0129,2026-03-25,Lumbar laminectomy,Primary,Lumbar,1,Posterior,Open,190,120,4,Inpatient rehabilitation,Dr. C. Osei,PR-03,University Hospital
+PX-0043,EP-0156,PT-0132,2025-05-15,Cervical disc arthroplasty,Primary,Cervical,1,Anterior,Open,232,80,2,Home,Dr. B. Chen,PR-02,University Hospital
+PX-0044,EP-0158,PT-0134,2026-04-11,Long-segment posterior fusion,Primary,Deformity,10,Posterior,Open,368,590,3,Home,Dr. B. Chen,PR-02,University Hospital
+PX-0045,EP-0165,PT-0140,2025-08-07,Long-segment posterior fusion,Primary,Deformity,8,Posterior,Open,345,1230,6,Skilled nursing facility,Dr. A. Rivera,PR-01,North Surgical Center
+PX-0046,EP-0168,PT-0142,2024-01-06,Lumbar laminectomy,Primary,Lumbar,1,Posterior,Open,207,300,6,Home,Dr. A. Rivera,PR-01,University Hospital
+PX-0047,EP-0169,PT-0142,2024-04-11,Anterior-posterior reconstruction,Primary,Deformity,10,Combined,Open,332,620,7,Home,Dr. C. Osei,PR-03,University Hospital
+PX-0048,EP-0171,PT-0144,2024-09-30,ACDF,Primary,Cervical,4,Anterior,Open,293,350,2,Home,Dr. A. Rivera,PR-01,University Hospital
+PX-0049,EP-0173,PT-0146,2025-12-22,Posterior cervical laminectomy and fusion,Primary,Cervical,1,Posterior,Open,166,220,3,Home,Dr. B. Chen,PR-02,North Surgical Center
+PX-0050,EP-0183,PT-0156,2024-06-26,XLIF/LLIF,Primary,Lumbar,1,Lateral,Open,233,110,6,Home,Dr. B. Chen,PR-02,University Hospital
